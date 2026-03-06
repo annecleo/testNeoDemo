@@ -1,0 +1,13 @@
+<custom-action actionType="SapIsAvailable" isHit="false"
+    name="isavailable" uid="edc60182-6adb-43d3-97ec-ca63107028c2">
+    <description>This action checks whether a SAP object is available or not. The result will be returned in the response or in the optional parameter.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.&#xd;
+- variable (optional): The variable name of the result. Default value is "isAvailable".</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/"/>
+    <custom-action-parameter name="variable" type="TEXT" value="isAvailable"/>
+</custom-action>

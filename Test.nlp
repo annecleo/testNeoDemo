@@ -14,3 +14,6 @@ project.config.path=config.zip
 project.config.storage=ZIP
 team.server.enabled=true
 team.server.project=/annecleo/testNeoDemo.git
+project.workspace=5e3acde2e860a132744ca916
+project.test-settings=05d8cbc1-6882-4b40-9a64-cfa6952db711
+project.test-settings-name=22Jan-CS0478993(Ann)

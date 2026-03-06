@@ -1,0 +1,22 @@
+<browser-action actionType="BrowserCaptureWebVitals" isHit="false"
+    name="Capture Web Vitals" uid="751d8fd3-9183-4c79-80e3-79ffdaba52e4">
+    <description>Captures Core Web Vitals metrics during Virtual User navigation. This helps detect performance issues that affect the user experience.
+
+NeoLoad collects the following metrics for each defined URL:
+
+- Largest Contentful Paint (LCP)
+- Interaction to Next Paint (INP)
+- Cumulative Layout Shift (CLS)
+
+If you don't define a URL, NeoLoad aggregates metrics across all visited pages.
+
+To collect all metrics, place this action before the first Navigate action. The Virtual User needs to stay a minimum amount of time and perform at least one interaction to ensure Web Vitals were collected for a given page.
+Possible parameters are:&#xd;
+- url (optional): A url (excluding query parameters) to group Web Vitals metrics data under.</description>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/search/maps/@1.3297601,103.6592323,107779m/data=!3m2!1e3!4b1"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/search/maps/@1.3231869,103.8421556,18797m/data=!3m2!1e3!4b1"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/dir//20+Malacca+St,+Map+Pacific+Pte+Ltd,+Singapore+048979/@1.3231869,103.8421556,18797m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x31da190ea9abbb5b:0x7f8319bb067544ed!2m2!1d103.8506561!2d1.2840433"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/dir//20+Malacca+St,+Map+Pacific+Pte+Ltd,+Singapore+048979/@1.3231869,103.8421556,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x31da190ea9abbb5b:0x7f8319bb067544ed!2m2!1d103.8506561!2d1.2840433"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/dir/Ana+Tower+Offices,+Bulevardul+Poligrafiei,+Bucharest,+Romania/20+Malacca+St,+Map+Pacific+Pte+Ltd,+Singapore+048979/@1.3231869,103.8421556,13z/data=!4m13!4m12!1m5!1m1!1s0x40b203cc89b06219:0xc100757cd5c9e40b!2m2!1d26.0657713!2d44.4802877!1m5!1m1!1s0x31da190ea9abbb5b:0x7f8319bb067544ed!2m2!1d103.8506561!2d1.2840433"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/dir/Ana+Tower+Offices,+Bulevardul+Poligrafiei+1A,+013704+Bucure%C8%99ti,+Romania/Map+Pacific+Pte+Ltd,+20+Malacca+St,+Singapore+048979/@21.4658469,43.3498682,4z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x40b203cc89b06219:0xc100757cd5c9e40b!2m2!1d26.0657713!2d44.4802877!1m5!1m1!1s0x31da190ea9abbb5b:0x7f8319bb067544ed!2m2!1d103.8506561!2d1.2840433"/>
+</browser-action>

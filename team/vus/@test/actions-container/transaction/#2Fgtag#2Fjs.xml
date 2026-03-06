@@ -1,0 +1,282 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/gtag/js"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/071ec1aa-9d4c-4b05-8a17-78f4383e3afc.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="071ec1aa-9d4c-4b05-8a17-78f4383e3afc">
+    <embedded-action>94a1b8ec-db54-460b-9171-4051cfe905a4</embedded-action>
+    <embedded-action>b3368849-1632-4428-b7a9-aa0c434929c3</embedded-action>
+    <embedded-action>b174a705-ced1-4665-a6ef-92941e4638c1</embedded-action>
+    <embedded-action>bb14480b-3763-48d3-94f0-ee4b16329ff1</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/css; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 22 Jan 2026 04:34:52 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/xjs/_/ss/k=xjs.s.BYR5Rf_Hn9Q.L.B1.O/am=AIAAAABBAAAAAAAAAAAAIAAAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAgAAACQCAAJgAAAAAAAOADAACkAAAAAAAAHgADQpABAAAAAAAAAkAAAAAkAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAgAAAEEAIAAAAAQAEAEAAAAAAAAAAAAAAAABAFAAAAABAAAAAAIA4AAAAAAAAAAAAAEAAAAAAIAIABIAYAAAAAgGAAAAAAEAAAABAACAAAAAAgAAARFBAAQMAAAAAAQAAAAAAAAIACYAQBBAEIUAgBAAA4AAAAAAAAAAAACAAAAAAAgAAABAQgBAAAAAAEAAAgAAAAcgAAAAAEAAABCAQAvBGIAQAAIBEAEAEAIABAAAQAAAAABQEgAAAAAAAAAAAAAEYAAAAAAABAAsBFFBEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ/d=0/br=1/rs=ACT90oHdDJXmm-0qjQb5zUgVXdarfE7RKw/cb=loaded_h_0/m=syos,sy10n,syrh"
+    path="/xjs/_/ss/k=xjs.s.BYR5Rf_Hn9Q.L.B1.O/am=AIAAAABBAAAAAAAAAAAAIAAAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAgAAACQCAAJgAAAAAAAOADAACkAAAAAAAAHgADQpABAAAAAAAAAkAAAAAkAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAgAAAEEAIAAAAAQAEAEAAAAAAAAAAAAAAAABAFAAAAABAAAAAAIA4AAAAAAAAAAAAAEAAAAAAIAIABIAYAAAAAgGAAAAAAEAAAABAACAAAAAAgAAARFBAAQMAAAAAAQAAAAAAAAIACYAQBBAEIUAgBAAA4AAAAAAAAAAAACAAAAAAAgAAABAQgBAAAAAAEAAAgAAAAcgAAAAAEAAABCAQAvBGIAQAAIBEAEAEAIABAAAQAAAAABQEgAAAAAAAAAAAAAEYAAAAAAABAAsBFFBEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ/d=0/br=1/rs=ACT90oHdDJXmm-0qjQb5zUgVXdarfE7RKw/cb=loaded_h_0/m=syos,sy10n,syrh"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/071ec1aa-9d4c-4b05-8a17-78f4383e3afc.zip"
+    recordedResponseCode="200" responseSize="4432"
+    serverUid="www.google.com" slaProfileEnabled="false"
+    uid="94a1b8ec-db54-460b-9171-4051cfe905a4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_133aab31-9669-487c-8183-4f3635e0e456.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_133aab31-9669-487c-8183-4f3635e0e456.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="xjs"
+        recordRawValue="s4" separator="=" value="s4" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://www.google.com/"/>
+    <header name="x-browser-year" value="2026"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="downlink" value="10"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-full-version-list" value="&quot;Not(A:Brand&quot;;v=&quot;8.0.0.0&quot;, &quot;Chromium&quot;;v=&quot;144.0.7559.60&quot;, &quot;Google Chrome&quot;;v=&quot;144.0.7559.60&quot;"/>
+    <header name="x-client-data" value="CJK2yQEIpLbJAQipncoBCLKQywEIk6HLAQiFoM0BCJeMzwEIuJHPAQi1os8BCNSjzwEIkqTPAQiZpc8BCICmzwEI36bPARjshc8BGMGhzwE="/>
+    <header name="sec-ch-ua-form-factors" value="&quot;Desktop&quot;"/>
+    <header name="sec-ch-ua-platform-version" value="&quot;19.0.0&quot;"/>
+    <header name="sec-ch-prefers-color-scheme" value="light"/>
+    <header name="sec-ch-ua-full-version" value="&quot;144.0.7559.60&quot;"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="sec-ch-ua-arch" value="&quot;x86&quot;"/>
+    <header name="cookie" value="SEARCH_SAMESITE=CgQI954B; HSID=Ai00cgOoeXp5ZkMjR; SSID=AXUwlDGNj-rDh75j5; APISID=jAgHw7yakirVPp9J/ASoYw3KSIkfNuNjvj; SAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-1PAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-3PAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-BUCKET=CNUC; SID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2PtoLjvQbM8VXBuwDUB76ZoHgACgYKASMSARASFQHGX2MicugLFqe7EQRjmqSybNOOjRoVAUF8yKpn_YBTu_0WoeF8WVA9ZOzN0076; __Secure-1PSID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2Pt-MrO-YumlcwuEmsDOr1NxQACgYKAYkSARASFQHGX2MiKKT-SKGsWKcYY5Z29MX-KBoVAUF8yKqx7jj19KQYvaTa5xHKDN0o0076; __Secure-3PSID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2Ptz-lOhrfNMK99PIc9NcrxfQACgYKAUQSARASFQHGX2Mi69M3ogHLjyM2Z1cXTuhovxoVAUF8yKrwfDfK1R3gyCgiCLmzcwKu0076; AEC=AaJma5uXFn1hVFt0JH1lSrOsru5qUvJFkOrM2rXLfLR1Yvv2Y-GhzOoycg; NID=528=VtxumSSn1WVgjeQ3JAEZyM83nHj2qbKKjgQqXUd7v553FTWwNh1TIOFoh0-otH8LaOvf3Z-_Z4LDByhMMQ_FOp2hLSv04nz--gHEONWCTWwIPZwAXODg84vvV0LusqNZ5zsXmdIP-4yLBJdXefNvckTbyuoHUd0ETibAQtgvecwUfwegGbE_Jd8_jvuRuJa4ut_31iYaqx3MP0chcrE9R5JO-qwfWtTOdsCtaa9ViRBC-8Iv3Z5sVxUl5sSsUGzakg91bfNEs1DgUhBTOJqrKEGsn6FVg7jsFRI_ljj8776x8Y_g17btOU4wHipeRBZiCHUyr9MXqdT2frEji8w12wXLlNZtX7lAjfk97_5GE11siw4CYOmYYPFxnlMm_0TPKD_v95jzdwi-HyszxAhonTUZNxA; __Secure-1PSIDTS=sidts-CjIB7I_69JXLUuheCETrz7m93J3SZ0V2JuPEx7PpmYacotCsSmkLJvnEmdlRtOYbS7LAnBAA; __Secure-3PSIDTS=sidts-CjIB7I_69JXLUuheCETrz7m93J3SZ0V2JuPEx7PpmYacotCsSmkLJvnEmdlRtOYbS7LAnBAA; __Secure-STRP=AD6DogsKPLQ4WPz-W8xadoLoEra2g9RxOHy9_b8YyRhtczFNfpjLRPYxkTq84nBMIVofy0POlRiVApwQy6c71gK2QhWXEapUfviE; SIDCC=AKEyXzVCs-fPit4tvVVnzdIgwkOWMd-NVgvJX6FmeotaGgWrr7L7Os24Ld-7lAcWOVOM_cy3_JE; __Secure-1PSIDCC=AKEyXzUHD4LOkAD5yueHUidSpgjN4g8OjFPuROhr_CHS8LvnMxPY5cwgG3xQecC-GWXp8d4AWA; __Secure-3PSIDCC=AKEyXzXn8CGCizAi-p0Ceg710ucm5Hnu1Ycb10XWJlmgUp4CMYINjksbWXpZkfFWGWCkuN1nf_M"/>
+    <header name="accept-language" value="en-US,en;q=0.9,es;q=0.8"/>
+    <header name="x-browser-validation" value="PHzxKQDW1JU+MpcuUrBanuCqlLI="/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="x-browser-channel" value="stable"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;144&quot;, &quot;Google Chrome&quot;;v=&quot;144&quot;"/>
+    <header name="rtt" value="150"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sec-ch-ua-bitness" value="&quot;64&quot;"/>
+    <header name="sec-ch-ua-model" value="&quot;&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-ch-ua-wow64" value="?0"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="x-browser-copyright" value="Copyright 2026 Google LLC. All Rights reserved."/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+content-encoding: br&#xd;
+content-security-policy-report-only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/gws-team&#xd;
+cross-origin-resource-policy: cross-origin&#xd;
+cross-origin-opener-policy: same-origin; report-to="gws-team"&#xd;
+report-to: {"group":"gws-team","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws-team"}]}&#xd;
+content-length: 1358&#xd;
+x-content-type-options: nosniff&#xd;
+server: sffe&#xd;
+x-xss-protection: 0&#xd;
+date: Thu, 22 Jan 2026 09:43:17 GMT&#xd;
+expires: Fri, 22 Jan 2027 09:43:17 GMT&#xd;
+cache-control: public, immutable, max-age=31536000&#xd;
+last-modified: Thu, 22 Jan 2026 04:34:52 GMT&#xd;
+content-type: text/css; charset=UTF-8&#xd;
+vary: Accept-Encoding, Origin&#xd;
+age: 15143&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/javascript; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 21 Jan 2026 23:41:08 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/xjs/_/js/k=xjs.s.en_GB.ikkhbcIoLUE.2019.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAQCggAAACAAAAAAAAAAAAIAABAAEAAAAAAAAAAAAAAAAAAAAAAAIIAAAAQAkAAAAAAAAAAAQAAAAQAAAAAAAAAAAwAAgAAAEEFAgAACAAgAAAAAAAAAAAAAAAAAAEBAEAACABBIA8L_9IQ0AAAAAAAACAAAAAAAAAAAAAACABAAAAAAAAADAAgAACAoDABBACBAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAABAAAAUAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAEAAAAAAcAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAhoAAAAAAAABQAE8AMAQAAAAAAAAA4AAAAhAAAAAMAFFBEAAAQAAAAAQA4AjwdwSEEBAAAAAAAAAAAAAAAAAAAAAARAAZgDyQ8IIAAAAAAAAAAAAAAAAAAAAAAAAABQETaxagAg/d=0/dg=0/br=1/rs=ACT90oFKbj9qNZpe3eBJNWIQGQKQZwBu4Q/cb=loaded_h_0/m=sy604,sy602,sy603,syxh,EkevXb,sy1bh,EbPKJf,sy1bd,sy1bb,syos,sy10n,CnSW2d,sy1bp,sy1bo,sy1bl,pFsdhd,L8KGxe,sy2vh,syrh,sy4cq,sy26n,sy3ax,sy1hy,sy1hz,sy1hx,sy1hf,sy1hg,sy1hu,sy1ht,sy1cm,sy1hv,sy1hi,sy1hj,sy1hh,sy18x,sy1hc,sy1hb,sy1ha,sy1h9,sy1hd,sy2gw,sy2i9,sy6oo,sy1dx,sy1dy,sy1f8,sy6on,sy3av,sy3aw,sy1k2,sy1kb,sy1k3,sy1j2,sy1ka,sy1k9,sy1k8,sy1k7,Iw9Xo,sy6zo,sy6zk,zGLm3b,sy65a,sy659,O9SqHb,sy58u,NEW1Qc"
+    path="/xjs/_/js/k=xjs.s.en_GB.ikkhbcIoLUE.2019.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAQCggAAACAAAAAAAAAAAAIAABAAEAAAAAAAAAAAAAAAAAAAAAAAIIAAAAQAkAAAAAAAAAAAQAAAAQAAAAAAAAAAAwAAgAAAEEFAgAACAAgAAAAAAAAAAAAAAAAAAEBAEAACABBIA8L_9IQ0AAAAAAAACAAAAAAAAAAAAAACABAAAAAAAAADAAgAACAoDABBACBAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAABAAAAUAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAEAAAAAAcAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAhoAAAAAAAABQAE8AMAQAAAAAAAAA4AAAAhAAAAAMAFFBEAAAQAAAAAQA4AjwdwSEEBAAAAAAAAAAAAAAAAAAAAAARAAZgDyQ8IIAAAAAAAAAAAAAAAAAAAAAAAAABQETaxagAg/d=0/dg=0/br=1/rs=ACT90oFKbj9qNZpe3eBJNWIQGQKQZwBu4Q/cb=loaded_h_0/m=sy604,sy602,sy603,syxh,EkevXb,sy1bh,EbPKJf,sy1bd,sy1bb,syos,sy10n,CnSW2d,sy1bp,sy1bo,sy1bl,pFsdhd,L8KGxe,sy2vh,syrh,sy4cq,sy26n,sy3ax,sy1hy,sy1hz,sy1hx,sy1hf,sy1hg,sy1hu,sy1ht,sy1cm,sy1hv,sy1hi,sy1hj,sy1hh,sy18x,sy1hc,sy1hb,sy1ha,sy1h9,sy1hd,sy2gw,sy2i9,sy6oo,sy1dx,sy1dy,sy1f8,sy6on,sy3av,sy3aw,sy1k2,sy1kb,sy1k3,sy1j2,sy1ka,sy1k9,sy1k8,sy1k7,Iw9Xo,sy6zo,sy6zk,zGLm3b,sy65a,sy659,O9SqHb,sy58u,NEW1Qc"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/071ec1aa-9d4c-4b05-8a17-78f4383e3afc.zip"
+    recordedResponseCode="200" responseSize="37637"
+    serverUid="www.google.com" slaProfileEnabled="false"
+    uid="b3368849-1632-4428-b7a9-aa0c434929c3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_239ca659-18ca-4dfb-80a6-49b0097852fc</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_239ca659-18ca-4dfb-80a6-49b0097852fc.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="xjs"
+        recordRawValue="s4" separator="=" value="s4" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://www.google.com/"/>
+    <header name="x-browser-year" value="2026"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="downlink" value="10"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-full-version-list" value="&quot;Not(A:Brand&quot;;v=&quot;8.0.0.0&quot;, &quot;Chromium&quot;;v=&quot;144.0.7559.60&quot;, &quot;Google Chrome&quot;;v=&quot;144.0.7559.60&quot;"/>
+    <header name="x-client-data" value="CJK2yQEIpLbJAQipncoBCLKQywEIk6HLAQiFoM0BCJeMzwEIuJHPAQi1os8BCNSjzwEIkqTPAQiZpc8BCICmzwEI36bPARjshc8BGMGhzwE="/>
+    <header name="sec-ch-ua-form-factors" value="&quot;Desktop&quot;"/>
+    <header name="sec-ch-ua-platform-version" value="&quot;19.0.0&quot;"/>
+    <header name="sec-ch-prefers-color-scheme" value="light"/>
+    <header name="sec-ch-ua-full-version" value="&quot;144.0.7559.60&quot;"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="sec-ch-ua-arch" value="&quot;x86&quot;"/>
+    <header name="cookie" value="SEARCH_SAMESITE=CgQI954B; HSID=Ai00cgOoeXp5ZkMjR; SSID=AXUwlDGNj-rDh75j5; APISID=jAgHw7yakirVPp9J/ASoYw3KSIkfNuNjvj; SAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-1PAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-3PAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-BUCKET=CNUC; SID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2PtoLjvQbM8VXBuwDUB76ZoHgACgYKASMSARASFQHGX2MicugLFqe7EQRjmqSybNOOjRoVAUF8yKpn_YBTu_0WoeF8WVA9ZOzN0076; __Secure-1PSID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2Pt-MrO-YumlcwuEmsDOr1NxQACgYKAYkSARASFQHGX2MiKKT-SKGsWKcYY5Z29MX-KBoVAUF8yKqx7jj19KQYvaTa5xHKDN0o0076; __Secure-3PSID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2Ptz-lOhrfNMK99PIc9NcrxfQACgYKAUQSARASFQHGX2Mi69M3ogHLjyM2Z1cXTuhovxoVAUF8yKrwfDfK1R3gyCgiCLmzcwKu0076; AEC=AaJma5uXFn1hVFt0JH1lSrOsru5qUvJFkOrM2rXLfLR1Yvv2Y-GhzOoycg; NID=528=VtxumSSn1WVgjeQ3JAEZyM83nHj2qbKKjgQqXUd7v553FTWwNh1TIOFoh0-otH8LaOvf3Z-_Z4LDByhMMQ_FOp2hLSv04nz--gHEONWCTWwIPZwAXODg84vvV0LusqNZ5zsXmdIP-4yLBJdXefNvckTbyuoHUd0ETibAQtgvecwUfwegGbE_Jd8_jvuRuJa4ut_31iYaqx3MP0chcrE9R5JO-qwfWtTOdsCtaa9ViRBC-8Iv3Z5sVxUl5sSsUGzakg91bfNEs1DgUhBTOJqrKEGsn6FVg7jsFRI_ljj8776x8Y_g17btOU4wHipeRBZiCHUyr9MXqdT2frEji8w12wXLlNZtX7lAjfk97_5GE11siw4CYOmYYPFxnlMm_0TPKD_v95jzdwi-HyszxAhonTUZNxA; __Secure-1PSIDTS=sidts-CjIB7I_69JXLUuheCETrz7m93J3SZ0V2JuPEx7PpmYacotCsSmkLJvnEmdlRtOYbS7LAnBAA; __Secure-3PSIDTS=sidts-CjIB7I_69JXLUuheCETrz7m93J3SZ0V2JuPEx7PpmYacotCsSmkLJvnEmdlRtOYbS7LAnBAA; __Secure-STRP=AD6DogsKPLQ4WPz-W8xadoLoEra2g9RxOHy9_b8YyRhtczFNfpjLRPYxkTq84nBMIVofy0POlRiVApwQy6c71gK2QhWXEapUfviE; SIDCC=AKEyXzVCs-fPit4tvVVnzdIgwkOWMd-NVgvJX6FmeotaGgWrr7L7Os24Ld-7lAcWOVOM_cy3_JE; __Secure-1PSIDCC=AKEyXzUHD4LOkAD5yueHUidSpgjN4g8OjFPuROhr_CHS8LvnMxPY5cwgG3xQecC-GWXp8d4AWA; __Secure-3PSIDCC=AKEyXzXn8CGCizAi-p0Ceg710ucm5Hnu1Ycb10XWJlmgUp4CMYINjksbWXpZkfFWGWCkuN1nf_M"/>
+    <header name="accept-language" value="en-US,en;q=0.9,es;q=0.8"/>
+    <header name="x-browser-validation" value="PHzxKQDW1JU+MpcuUrBanuCqlLI="/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="x-browser-channel" value="stable"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;144&quot;, &quot;Google Chrome&quot;;v=&quot;144&quot;"/>
+    <header name="rtt" value="150"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sec-ch-ua-bitness" value="&quot;64&quot;"/>
+    <header name="sec-ch-ua-model" value="&quot;&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-ch-ua-wow64" value="?0"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="x-browser-copyright" value="Copyright 2026 Google LLC. All Rights reserved."/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+vary: Accept-Encoding, Origin&#xd;
+content-encoding: br&#xd;
+content-type: text/javascript; charset=UTF-8&#xd;
+content-security-policy-report-only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/gws-team&#xd;
+cross-origin-resource-policy: cross-origin&#xd;
+cross-origin-opener-policy: same-origin; report-to="gws-team"&#xd;
+report-to: {"group":"gws-team","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws-team"}]}&#xd;
+content-length: 12540&#xd;
+date: Thu, 22 Jan 2026 13:55:40 GMT&#xd;
+expires: Fri, 22 Jan 2027 13:55:40 GMT&#xd;
+cache-control: public, immutable, max-age=31536000&#xd;
+last-modified: Wed, 21 Jan 2026 23:41:08 GMT&#xd;
+x-content-type-options: nosniff&#xd;
+server: sffe&#xd;
+x-xss-protection: 0&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/javascript; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 21 Jan 2026 23:41:08 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/xjs/_/js/k=xjs.s.en_GB.ikkhbcIoLUE.2019.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAQCggAAACAAAAAAAAAAAAIAABAAEAAAAAAAAAAAAAAAAAAAAAAAIIAAAAQAkAAAAAAAAAAAQAAAAQAAAAAAAAAAAwAAgAAAEEFAgAACAAgAAAAAAAAAAAAAAAAAAEBAEAACABBIA8L_9IQ0AAAAAAAACAAAAAAAAAAAAAACABAAAAAAAAADAAgAACAoDABBACBAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAABAAAAUAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAEAAAAAAcAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAhoAAAAAAAABQAE8AMAQAAAAAAAAA4AAAAhAAAAAMAFFBEAAAQAAAAAQA4AjwdwSEEBAAAAAAAAAAAAAAAAAAAAAARAAZgDyQ8IIAAAAAAAAAAAAAAAAAAAAAAAAABQETaxagAg/d=0/dg=0/br=1/rs=ACT90oFKbj9qNZpe3eBJNWIQGQKQZwBu4Q/cb=loaded_h_0/m=sy1kc,sy1kd,OoK5v,vRlMvf,sy1k6,sy1k5,sy1k0,sy1j9,sy1j8,sy1ja,sy1jb,sy1j7,sy1k4,i8S0p"
+    path="/xjs/_/js/k=xjs.s.en_GB.ikkhbcIoLUE.2019.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAQCggAAACAAAAAAAAAAAAIAABAAEAAAAAAAAAAAAAAAAAAAAAAAIIAAAAQAkAAAAAAAAAAAQAAAAQAAAAAAAAAAAwAAgAAAEEFAgAACAAgAAAAAAAAAAAAAAAAAAEBAEAACABBIA8L_9IQ0AAAAAAAACAAAAAAAAAAAAAACABAAAAAAAAADAAgAACAoDABBACBAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAABAAAAUAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAEAAAAAAcAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAhoAAAAAAAABQAE8AMAQAAAAAAAAA4AAAAhAAAAAMAFFBEAAAQAAAAAQA4AjwdwSEEBAAAAAAAAAAAAAAAAAAAAAARAAZgDyQ8IIAAAAAAAAAAAAAAAAAAAAAAAAABQETaxagAg/d=0/dg=0/br=1/rs=ACT90oFKbj9qNZpe3eBJNWIQGQKQZwBu4Q/cb=loaded_h_0/m=sy1kc,sy1kd,OoK5v,vRlMvf,sy1k6,sy1k5,sy1k0,sy1j9,sy1j8,sy1ja,sy1jb,sy1j7,sy1k4,i8S0p"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/071ec1aa-9d4c-4b05-8a17-78f4383e3afc.zip"
+    recordedResponseCode="200" responseSize="5427"
+    serverUid="www.google.com" slaProfileEnabled="false"
+    uid="b174a705-ced1-4665-a6ef-92941e4638c1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d58fc61c-278e-4684-80bd-c4e453d76948</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d58fc61c-278e-4684-80bd-c4e453d76948.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="xjs"
+        recordRawValue="s4" separator="=" value="s4" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://www.google.com/"/>
+    <header name="x-browser-year" value="2026"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="downlink" value="10"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-full-version-list" value="&quot;Not(A:Brand&quot;;v=&quot;8.0.0.0&quot;, &quot;Chromium&quot;;v=&quot;144.0.7559.60&quot;, &quot;Google Chrome&quot;;v=&quot;144.0.7559.60&quot;"/>
+    <header name="x-client-data" value="CJK2yQEIpLbJAQipncoBCLKQywEIk6HLAQiFoM0BCJeMzwEIuJHPAQi1os8BCNSjzwEIkqTPAQiZpc8BCICmzwEI36bPARjshc8BGMGhzwE="/>
+    <header name="sec-ch-ua-form-factors" value="&quot;Desktop&quot;"/>
+    <header name="sec-ch-ua-platform-version" value="&quot;19.0.0&quot;"/>
+    <header name="sec-ch-prefers-color-scheme" value="light"/>
+    <header name="sec-ch-ua-full-version" value="&quot;144.0.7559.60&quot;"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="sec-ch-ua-arch" value="&quot;x86&quot;"/>
+    <header name="cookie" value="SEARCH_SAMESITE=CgQI954B; HSID=Ai00cgOoeXp5ZkMjR; SSID=AXUwlDGNj-rDh75j5; APISID=jAgHw7yakirVPp9J/ASoYw3KSIkfNuNjvj; SAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-1PAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-3PAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-BUCKET=CNUC; SID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2PtoLjvQbM8VXBuwDUB76ZoHgACgYKASMSARASFQHGX2MicugLFqe7EQRjmqSybNOOjRoVAUF8yKpn_YBTu_0WoeF8WVA9ZOzN0076; __Secure-1PSID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2Pt-MrO-YumlcwuEmsDOr1NxQACgYKAYkSARASFQHGX2MiKKT-SKGsWKcYY5Z29MX-KBoVAUF8yKqx7jj19KQYvaTa5xHKDN0o0076; __Secure-3PSID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2Ptz-lOhrfNMK99PIc9NcrxfQACgYKAUQSARASFQHGX2Mi69M3ogHLjyM2Z1cXTuhovxoVAUF8yKrwfDfK1R3gyCgiCLmzcwKu0076; AEC=AaJma5uXFn1hVFt0JH1lSrOsru5qUvJFkOrM2rXLfLR1Yvv2Y-GhzOoycg; NID=528=VtxumSSn1WVgjeQ3JAEZyM83nHj2qbKKjgQqXUd7v553FTWwNh1TIOFoh0-otH8LaOvf3Z-_Z4LDByhMMQ_FOp2hLSv04nz--gHEONWCTWwIPZwAXODg84vvV0LusqNZ5zsXmdIP-4yLBJdXefNvckTbyuoHUd0ETibAQtgvecwUfwegGbE_Jd8_jvuRuJa4ut_31iYaqx3MP0chcrE9R5JO-qwfWtTOdsCtaa9ViRBC-8Iv3Z5sVxUl5sSsUGzakg91bfNEs1DgUhBTOJqrKEGsn6FVg7jsFRI_ljj8776x8Y_g17btOU4wHipeRBZiCHUyr9MXqdT2frEji8w12wXLlNZtX7lAjfk97_5GE11siw4CYOmYYPFxnlMm_0TPKD_v95jzdwi-HyszxAhonTUZNxA; __Secure-1PSIDTS=sidts-CjIB7I_69JXLUuheCETrz7m93J3SZ0V2JuPEx7PpmYacotCsSmkLJvnEmdlRtOYbS7LAnBAA; __Secure-3PSIDTS=sidts-CjIB7I_69JXLUuheCETrz7m93J3SZ0V2JuPEx7PpmYacotCsSmkLJvnEmdlRtOYbS7LAnBAA; __Secure-STRP=AD6DogsKPLQ4WPz-W8xadoLoEra2g9RxOHy9_b8YyRhtczFNfpjLRPYxkTq84nBMIVofy0POlRiVApwQy6c71gK2QhWXEapUfviE; SIDCC=AKEyXzVCs-fPit4tvVVnzdIgwkOWMd-NVgvJX6FmeotaGgWrr7L7Os24Ld-7lAcWOVOM_cy3_JE; __Secure-1PSIDCC=AKEyXzUHD4LOkAD5yueHUidSpgjN4g8OjFPuROhr_CHS8LvnMxPY5cwgG3xQecC-GWXp8d4AWA; __Secure-3PSIDCC=AKEyXzXn8CGCizAi-p0Ceg710ucm5Hnu1Ycb10XWJlmgUp4CMYINjksbWXpZkfFWGWCkuN1nf_M"/>
+    <header name="accept-language" value="en-US,en;q=0.9,es;q=0.8"/>
+    <header name="x-browser-validation" value="PHzxKQDW1JU+MpcuUrBanuCqlLI="/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="x-browser-channel" value="stable"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;144&quot;, &quot;Google Chrome&quot;;v=&quot;144&quot;"/>
+    <header name="rtt" value="150"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sec-ch-ua-bitness" value="&quot;64&quot;"/>
+    <header name="sec-ch-ua-model" value="&quot;&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-ch-ua-wow64" value="?0"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="x-browser-copyright" value="Copyright 2026 Google LLC. All Rights reserved."/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+content-encoding: br&#xd;
+content-security-policy-report-only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/gws-team&#xd;
+cross-origin-resource-policy: cross-origin&#xd;
+cross-origin-opener-policy: same-origin; report-to="gws-team"&#xd;
+report-to: {"group":"gws-team","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws-team"}]}&#xd;
+content-length: 1919&#xd;
+x-content-type-options: nosniff&#xd;
+server: sffe&#xd;
+x-xss-protection: 0&#xd;
+date: Thu, 22 Jan 2026 10:31:28 GMT&#xd;
+expires: Fri, 22 Jan 2027 10:31:28 GMT&#xd;
+cache-control: public, immutable, max-age=31536000&#xd;
+last-modified: Wed, 21 Jan 2026 23:41:08 GMT&#xd;
+content-type: text/javascript; charset=UTF-8&#xd;
+vary: Accept-Encoding, Origin&#xd;
+age: 12252&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/javascript; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 21 Jan 2026 23:41:08 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/xjs/_/js/k=xjs.s.en_GB.ikkhbcIoLUE.2019.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAQCggAAACAAAAAAAAAAAAIAABAAEAAAAAAAAAAAAAAAAAAAAAAAIIAAAAQAkAAAAAAAAAAAQAAAAQAAAAAAAAAAAwAAgAAAEEFAgAACAAgAAAAAAAAAAAAAAAAAAEBAEAACABBIA8L_9IQ0AAAAAAAACAAAAAAAAAAAAAACABAAAAAAAAADAAgAACAoDABBACBAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAABAAAAUAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAEAAAAAAcAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAhoAAAAAAAABQAE8AMAQAAAAAAAAA4AAAAhAAAAAMAFFBEAAAQAAAAAQA4AjwdwSEEBAAAAAAAAAAAAAAAAAAAAAARAAZgDyQ8IIAAAAAAAAAAAAAAAAAAAAAAAAABQETaxagAg/d=0/dg=0/br=1/rs=ACT90oFKbj9qNZpe3eBJNWIQGQKQZwBu4Q/cb=loaded_h_0/m=sy9m0,sy9a2,sy95l,sy94g,sy8v6,sy8ko,sy8gc,sy8g8,sy8g5,sy8g4,sy8fh,sy8fe,sy8d4,sy8cg,sy8c9,sy74p,sy738,sy6t5,sy6s1,sy6pi,sy6pd,sy67p,sy5zk,sy5e6,sy58z,sy4wp,sy4wa,sy4tn,sy4ti,sy4cs,sy2h0,sy2hh,sy245,sy244,sy9lz,sy2he,sy2h3,yMpBcb,UX692c,wV5Pjc,ZNKFGf,sy4cu,sy3fo,sy25p,sy2hf,sy3b6,sy2hg,sy3b5,sy3ay,sy2hi,sy2hc,PJdUfd,sy2gx,sy2c7,syw2,syw3,sy2h8,sy2h6,sy2h4,sy27w,sy26u,sy25k,sy25b,Sp69O,sy654,sy64y,sy64w,syjl,sy653,sy65k,sy65j,sy65g,sy65i,sy64x,sy655,KHourd,sy6gm,T5VV,sy5nj,aDVF7,sy8fi,rhYw1b,IhkWbc,sy6gb,syw8,sy6ga,sy6g8,oPmHrb,sy6gc,FzTajd,sy6g9,LnZNCd,M6QgBb,ma4xG,E9M6Uc,sy25n,sy250,sy1e6,sy1e1,sy1e2,sy25m,sy249,sy257,sy24a,sy24c,sy24f,sy24g,sy24h,sy24i,sy247,sy248,sy24b,sy25l,sy25c,sy1e0,sy252,EO13pd,sy8g6,qCgt4c,sy5m3,I9y8sd,xBbsrc,sy58x,syyg,DLOxie"
+    path="/xjs/_/js/k=xjs.s.en_GB.ikkhbcIoLUE.2019.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAQCggAAACAAAAAAAAAAAAIAABAAEAAAAAAAAAAAAAAAAAAAAAAAIIAAAAQAkAAAAAAAAAAAQAAAAQAAAAAAAAAAAwAAgAAAEEFAgAACAAgAAAAAAAAAAAAAAAAAAEBAEAACABBIA8L_9IQ0AAAAAAAACAAAAAAAAAAAAAACABAAAAAAAAADAAgAACAoDABBACBAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAABAAAAUAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAEAAAAAAcAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAhoAAAAAAAABQAE8AMAQAAAAAAAAA4AAAAhAAAAAMAFFBEAAAQAAAAAQA4AjwdwSEEBAAAAAAAAAAAAAAAAAAAAAARAAZgDyQ8IIAAAAAAAAAAAAAAAAAAAAAAAAABQETaxagAg/d=0/dg=0/br=1/rs=ACT90oFKbj9qNZpe3eBJNWIQGQKQZwBu4Q/cb=loaded_h_0/m=sy9m0,sy9a2,sy95l,sy94g,sy8v6,sy8ko,sy8gc,sy8g8,sy8g5,sy8g4,sy8fh,sy8fe,sy8d4,sy8cg,sy8c9,sy74p,sy738,sy6t5,sy6s1,sy6pi,sy6pd,sy67p,sy5zk,sy5e6,sy58z,sy4wp,sy4wa,sy4tn,sy4ti,sy4cs,sy2h0,sy2hh,sy245,sy244,sy9lz,sy2he,sy2h3,yMpBcb,UX692c,wV5Pjc,ZNKFGf,sy4cu,sy3fo,sy25p,sy2hf,sy3b6,sy2hg,sy3b5,sy3ay,sy2hi,sy2hc,PJdUfd,sy2gx,sy2c7,syw2,syw3,sy2h8,sy2h6,sy2h4,sy27w,sy26u,sy25k,sy25b,Sp69O,sy654,sy64y,sy64w,syjl,sy653,sy65k,sy65j,sy65g,sy65i,sy64x,sy655,KHourd,sy6gm,T5VV,sy5nj,aDVF7,sy8fi,rhYw1b,IhkWbc,sy6gb,syw8,sy6ga,sy6g8,oPmHrb,sy6gc,FzTajd,sy6g9,LnZNCd,M6QgBb,ma4xG,E9M6Uc,sy25n,sy250,sy1e6,sy1e1,sy1e2,sy25m,sy249,sy257,sy24a,sy24c,sy24f,sy24g,sy24h,sy24i,sy247,sy248,sy24b,sy25l,sy25c,sy1e0,sy252,EO13pd,sy8g6,qCgt4c,sy5m3,I9y8sd,xBbsrc,sy58x,syyg,DLOxie"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/071ec1aa-9d4c-4b05-8a17-78f4383e3afc.zip"
+    recordedResponseCode="200" responseSize="127662"
+    serverUid="www.google.com" slaProfileEnabled="false"
+    uid="bb14480b-3763-48d3-94f0-ee4b16329ff1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a1894b8e-2028-4c74-9e8c-bd26b65abae3</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a1894b8e-2028-4c74-9e8c-bd26b65abae3.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="xjs"
+        recordRawValue="s4" separator="=" value="s4" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://www.google.com/"/>
+    <header name="x-browser-year" value="2026"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="downlink" value="10"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-full-version-list" value="&quot;Not(A:Brand&quot;;v=&quot;8.0.0.0&quot;, &quot;Chromium&quot;;v=&quot;144.0.7559.60&quot;, &quot;Google Chrome&quot;;v=&quot;144.0.7559.60&quot;"/>
+    <header name="x-client-data" value="CJK2yQEIpLbJAQipncoBCLKQywEIk6HLAQiFoM0BCJeMzwEIuJHPAQi1os8BCNSjzwEIkqTPAQiZpc8BCICmzwEI36bPARjshc8BGMGhzwE="/>
+    <header name="sec-ch-ua-form-factors" value="&quot;Desktop&quot;"/>
+    <header name="sec-ch-ua-platform-version" value="&quot;19.0.0&quot;"/>
+    <header name="sec-ch-prefers-color-scheme" value="light"/>
+    <header name="sec-ch-ua-full-version" value="&quot;144.0.7559.60&quot;"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="sec-ch-ua-arch" value="&quot;x86&quot;"/>
+    <header name="cookie" value="SEARCH_SAMESITE=CgQI954B; HSID=Ai00cgOoeXp5ZkMjR; SSID=AXUwlDGNj-rDh75j5; APISID=jAgHw7yakirVPp9J/ASoYw3KSIkfNuNjvj; SAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-1PAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-3PAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-BUCKET=CNUC; SID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2PtoLjvQbM8VXBuwDUB76ZoHgACgYKASMSARASFQHGX2MicugLFqe7EQRjmqSybNOOjRoVAUF8yKpn_YBTu_0WoeF8WVA9ZOzN0076; __Secure-1PSID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2Pt-MrO-YumlcwuEmsDOr1NxQACgYKAYkSARASFQHGX2MiKKT-SKGsWKcYY5Z29MX-KBoVAUF8yKqx7jj19KQYvaTa5xHKDN0o0076; __Secure-3PSID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2Ptz-lOhrfNMK99PIc9NcrxfQACgYKAUQSARASFQHGX2Mi69M3ogHLjyM2Z1cXTuhovxoVAUF8yKrwfDfK1R3gyCgiCLmzcwKu0076; AEC=AaJma5uXFn1hVFt0JH1lSrOsru5qUvJFkOrM2rXLfLR1Yvv2Y-GhzOoycg; NID=528=VtxumSSn1WVgjeQ3JAEZyM83nHj2qbKKjgQqXUd7v553FTWwNh1TIOFoh0-otH8LaOvf3Z-_Z4LDByhMMQ_FOp2hLSv04nz--gHEONWCTWwIPZwAXODg84vvV0LusqNZ5zsXmdIP-4yLBJdXefNvckTbyuoHUd0ETibAQtgvecwUfwegGbE_Jd8_jvuRuJa4ut_31iYaqx3MP0chcrE9R5JO-qwfWtTOdsCtaa9ViRBC-8Iv3Z5sVxUl5sSsUGzakg91bfNEs1DgUhBTOJqrKEGsn6FVg7jsFRI_ljj8776x8Y_g17btOU4wHipeRBZiCHUyr9MXqdT2frEji8w12wXLlNZtX7lAjfk97_5GE11siw4CYOmYYPFxnlMm_0TPKD_v95jzdwi-HyszxAhonTUZNxA; __Secure-1PSIDTS=sidts-CjIB7I_69JXLUuheCETrz7m93J3SZ0V2JuPEx7PpmYacotCsSmkLJvnEmdlRtOYbS7LAnBAA; __Secure-3PSIDTS=sidts-CjIB7I_69JXLUuheCETrz7m93J3SZ0V2JuPEx7PpmYacotCsSmkLJvnEmdlRtOYbS7LAnBAA; __Secure-STRP=AD6DogsKPLQ4WPz-W8xadoLoEra2g9RxOHy9_b8YyRhtczFNfpjLRPYxkTq84nBMIVofy0POlRiVApwQy6c71gK2QhWXEapUfviE; SIDCC=AKEyXzVCs-fPit4tvVVnzdIgwkOWMd-NVgvJX6FmeotaGgWrr7L7Os24Ld-7lAcWOVOM_cy3_JE; __Secure-1PSIDCC=AKEyXzUHD4LOkAD5yueHUidSpgjN4g8OjFPuROhr_CHS8LvnMxPY5cwgG3xQecC-GWXp8d4AWA; __Secure-3PSIDCC=AKEyXzXn8CGCizAi-p0Ceg710ucm5Hnu1Ycb10XWJlmgUp4CMYINjksbWXpZkfFWGWCkuN1nf_M"/>
+    <header name="accept-language" value="en-US,en;q=0.9,es;q=0.8"/>
+    <header name="x-browser-validation" value="PHzxKQDW1JU+MpcuUrBanuCqlLI="/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="x-browser-channel" value="stable"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;144&quot;, &quot;Google Chrome&quot;;v=&quot;144&quot;"/>
+    <header name="rtt" value="150"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sec-ch-ua-bitness" value="&quot;64&quot;"/>
+    <header name="sec-ch-ua-model" value="&quot;&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-ch-ua-wow64" value="?0"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="x-browser-copyright" value="Copyright 2026 Google LLC. All Rights reserved."/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+vary: Accept-Encoding, Origin&#xd;
+content-encoding: br&#xd;
+content-type: text/javascript; charset=UTF-8&#xd;
+content-security-policy-report-only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/gws-team&#xd;
+cross-origin-resource-policy: cross-origin&#xd;
+cross-origin-opener-policy: same-origin; report-to="gws-team"&#xd;
+report-to: {"group":"gws-team","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws-team"}]}&#xd;
+content-length: 41765&#xd;
+date: Thu, 22 Jan 2026 13:55:41 GMT&#xd;
+expires: Fri, 22 Jan 2027 13:55:41 GMT&#xd;
+cache-control: public, immutable, max-age=31536000&#xd;
+last-modified: Wed, 21 Jan 2026 23:41:08 GMT&#xd;
+x-content-type-options: nosniff&#xd;
+server: sffe&#xd;
+x-xss-protection: 0&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

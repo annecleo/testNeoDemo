@@ -84,7 +84,7 @@
         enabled="false" isLoopBack="false" name="wireless_32768">
         <!--****** LG ADDRESSES ******-->
         <lg-address enabled="false" hostname="tri-6fnvj64">
-            <ip value="10.50.122.149"/>
+            <ip value="10.10.106.105"/>
         </lg-address>
         <lg-address enabled="false" hostname="fe80:0:0:0:2ead:ce1a:996:ece8%wireless_32768">
             <ip value="fe80:0:0:0:2ead:ce1a:996:ece8%wireless_32768"/>
