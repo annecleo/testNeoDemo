@@ -1,6 +1,6 @@
 <virtual-user errorPolicy="DO_NOTHING"
     failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
-    type="LEGACY" uid="Test">
+    type="LEGACY" uid="Test_1">
     <init-container element-number="1" execution-type="0" pacingEnd="0"
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
         slaProfileEnabled="false" weightsEnabled="false">
@@ -8,13 +8,13 @@
     </init-container>
     <actions-container clearUserIterationDataMode="OFF"
         element-number="1" execution-type="0" pacingEnd="0"
-        pacingMode="MODE_PACING_SIMPLE" pacingStart="0" pacingValue="5"
+        pacingMode="MODE_PACING_SIMPLE" pacingStart="0" pacingValue="10"
         slaProfileEnabled="false" weightsEnabled="false">
         <description>Elements repeated until the Virtual User stops.</description>
-        <weighted-embedded-action uid="807b76d7-3218-4004-8504-c04214b68fd4"/>
-        <weighted-embedded-action uid="822e5adb-8f17-417b-ae4c-2bac1ac5b770"/>
-        <weighted-embedded-action uid="b19e2eb0-385a-4711-8c0a-b7e0f1f391a2"/>
-        <weighted-embedded-action uid="e69684ac-d5fc-44fa-a703-d79b22e147a3"/>
+        <weighted-embedded-action uid="93d765b1-0b3a-4566-ae89-fdd7da4af9df"/>
+        <weighted-embedded-action uid="52fbd1fc-0069-409b-ad6b-b703f029d8e1"/>
+        <weighted-embedded-action uid="e3795ab7-885c-469b-801a-ad474cc4c773"/>
+        <weighted-embedded-action uid="6ca5e28e-9f14-4e3b-9183-db9fa9e3ee9d"/>
     </actions-container>
     <end-container element-number="1" execution-type="0" pacingEnd="0"
         pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
