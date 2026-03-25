@@ -1,0 +1,19 @@
+# Project description file
+
+project.name=CS0485724
+project.version=8.10
+project.original.version=8.10
+product.name=NeoLoad
+product.original.name=NeoLoad
+ssh.trustUnknownHosts.MONITORS=false
+monitor.tls.insecure=false
+product.original.version=2025.3.1
+project.workspace=5e3acde2e860a132744ca916
+project.test-settings=c8fd7624-7dd4-4e26-acd0-92609619dfb6
+project.test-settings-name=CS0485133
+project.is-open-test-settings-after-upload=false
+project.id=64b91eb6-8171-422d-b36e-76184f7caaf0
+project.config.path=team
+project.config.storage=XML_MULTI
+team.server.enabled=true
+team.server.project=/annecleo/testNeoDemo.git
