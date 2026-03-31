@@ -1,0 +1,109 @@
+<browser-action actionType="BrowserCaptureRequests" isHit="false"
+    name="Capture requests" uid="e9f6e5ae-1524-43c6-9330-6eee64ff2841">
+    <description>Configure the capture of HTTP requests metrics for analysis purpose. 
+It allows to capture the metrics (duration, TTFB, success...) of the requests sent and responses received between the browser and the server.
+By default when no regexp/url/resourceType parameter is specified, then all the HTTP request metrics are aggregated in a single group.
+When a matching criteria is defined (regexp/url/resourceType), the metrics of all HTTP requests matching it are aggregated in a group, and the non-matching one in a different group (for example with regexp (.*)\.html then requests will be split in two different groups: one for all HTML pages and another one for all other resources). When multiple matching criteria are defined (regexp/url/resourceType), they are applied in order they are defined.
+
+Possible parameters are:&#xd;
+- regexp (optional): The regular expression to group the requests (the matching check is applied on the full request URL: scheme, host name, port number, path and URL parameters).  Default value is ".*".&#xd;
+- url (optional): The URL to group the requests (excluding query parameters). &#xd;
+- resourceType (optional): The resource type to group the requests (possible values are document, stylesheet, image, media, font, script, texttrack, xhr, fetch, eventsource, websocket, manifest, ping, other). &#xd;
+- includeCache (optional): By default, only the requests sent over the network are captured (including the requests with 304 'Not Modified' response status since it includes network exchange). Set the value to true to capture also the requests locally loaded from the browser memory or disk cache (no network interaction). Default value is "false".</description>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/proto"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/preview/log204"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://streetviewpixels-pa.googleapis.com/v1/tile"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/preview/place"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/rpc/vp"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/spotlight/spotlight_pin_v4_outline-1-small.png,assets/icons/spotlight/spotlight_pin_v4-1-small.png,assets/icons/spotlight/spotlight_pin_v4_dot-1-small.png"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/stadium_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/forage_outline_v1-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v3-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/tree_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/ferriswheel_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/forage_window_v1-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/shoppingbag_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/shoppingcart_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/_/MapsWizUi/data/batchexecute"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/transit/quantum_v2/bus-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/event_venue_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/transit/quantum_v2/transit-round-container_v3-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/transit/quantum_v2/transit-round-container-shadow_v4-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/transit/quantum_v2/transit-round-container-outline_v3-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/photometa/v1"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/worship_temple_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/parking_pinlet_square-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/forage_round_outline_v1-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/library_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/restaurant_pinlet_v4-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/forage_round_shadow_v3-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/cemetery_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/transit/quantum_v2/transit-round-container-outline_v3-1-small.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/transit/quantum_v2/transit-round-container_v3-1-small.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/ev_pin_square_1-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/transit/quantum_v2/transit-round-container-shadow_v4-1-small.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/museum_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/dot_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/atm_pinlet_v2-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/flower_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/forage_round_window_v1-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/camera_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/transit/quantum_v2/bus-1-small.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/road/arrow-opaque-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/hiking_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/spotlight/spotlight_pin_v4_dot-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/palette_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.gstatic.com/maps/res/CompactLegend-RoadmapSatellite-0fe87aa56131f214d93236b5c1c2ff64"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/lodging_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/bridge_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/paw_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/imagery/pano_outside-3-large.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/road/transparent-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/tactile/forage_shadow_v2-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/spotlight/spotlight_pin_v4_outline-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/civic_bldg_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/transit/quantum_v2/transit-round-container-outline_v3-0-tiny.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/spotlight/spotlight_pin_v4-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/cafe_pinlet_v3-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/transit/quantum_v2/bus-0-tiny.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=icons/spotlight/directions_destination_measle_8x.png&amp;scale=2"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/preview/passiveassist"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/sxforms"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/worship_dharma_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/pharmacy_pinlet_v3-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/imagery/pano_inside-3-large.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/worship_christian_pinlet-v3-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/resort_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/historic_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/golf_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/transit/quantum_v2/transit-round-container_v3-0-tiny.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/movie_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/transit/quantum_v2/transit-round-container-shadow_v4-0-tiny.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/fishing_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/school_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/preview/pegman"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/note_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/_/wa/w.lJPeeEFO9pE.createLabeler.O.wasm"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/hospital_H_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/road/arrow-opaque-1-small.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/_/wa/w.LQwPrsOiqEE.mapcore.O.wasm"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://maps.gstatic.com/mapfiles/annotations/icons/sports_complex_2x.5.png"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/_/wa/m.8lU5Hnce_1M.loadSv.O.wasm"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/medical_pinlet_v3-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/search"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/worship_hindu_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/camping_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/cubemap/name=assets/cubemaps/lighting/abstract_2_light_sources_bright"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/vt/icon/name=assets/icons/poi/quantum/modern_pinlet/airport_pinlet-2-medium.png&amp;scale=4"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://play.google.com/log"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/preview/directions"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="image"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="other"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="script"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="font"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="stylesheet"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="ping"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="document"/>
+</browser-action>
