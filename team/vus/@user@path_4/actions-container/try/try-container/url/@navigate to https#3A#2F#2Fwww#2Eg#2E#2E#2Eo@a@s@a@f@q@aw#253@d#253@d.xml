@@ -1,0 +1,12 @@
+<browser-action actionType="BrowserNavigate" isHit="false"
+    name="Navigate to https://www.g...oASAFQAw%3D%3D" uid="21c01d85-bb59-4961-8f5f-5b310c34f7fa">
+    <description>Navigate to an url.
+
+Possible parameters are:&#xd;
+- url (required): URL to visit. The URL must start with an http or https scheme, for example "https://".&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): If applicable, the navigation must occur within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Enables a wait for page navigation after this action has been executed. Maximum value is 200000.&#xd;
+- waitForNavigation.until (optional): Allowed values are : COMMIT, DOMCONTENTLOADED, LOAD, NETWORKIDLE. Default value is LOAD. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.&#xd;
+- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".</description>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google.com/maps/search/maps/@1.3297601,103.6592323,107779m/data=!3m2!1e3!4b1?entry=ttu&amp;g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D"/>
+</browser-action>

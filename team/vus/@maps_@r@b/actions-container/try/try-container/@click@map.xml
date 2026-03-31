@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ClickMap" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="168f2e7e-c07c-4c7f-84c6-75457a5cd757" weightsEnabled="false">
+    <weighted-embedded-action uid="6f3c10ac-c1ec-4627-b54f-e9e959648fa1"/>
+    <weighted-embedded-action uid="85df6679-2344-4d47-b8a7-8976325904ce"/>
+    <weighted-embedded-action uid="3e3e0cf3-3a30-40b7-b9b8-a98229174191"/>
+    <weighted-embedded-action uid="a7e41302-4d78-48be-8e00-2acd98807203"/>
+    <weighted-embedded-action uid="dea5cf7c-19c4-423e-8e8d-a3f178365d55"/>
+    <weighted-embedded-action uid="737ab31f-cead-4e4b-a646-2f87fa2f66d2"/>
+    <weighted-embedded-action uid="834c1993-a2aa-4663-a203-4b696b9e5897"/>
+    <weighted-embedded-action uid="0784c25d-64d2-4e33-956a-116fc2ce3bd2"/>
+    <weighted-embedded-action uid="acf2327c-5766-4844-ac57-3a5592873ec9"/>
+    <weighted-embedded-action uid="3ebc1465-81b1-4a08-857a-3342ef93c6d3"/>
+</basic-logical-action-container>

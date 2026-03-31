@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="URL" pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="09d0bd95-6c09-4425-9b9f-181dac1c9d60" weightsEnabled="false">
+    <weighted-embedded-action uid="604923db-bde1-47fd-bdab-2fd9758a20b6"/>
+    <weighted-embedded-action uid="3900cf39-35d7-4d46-9edc-caeac7dcba8f"/>
+    <weighted-embedded-action uid="d9ad35e5-601d-41f5-8719-de8a5e9815a5"/>
+    <weighted-embedded-action uid="43f5cb8f-b50c-43dc-8cb5-2b9828057f2c"/>
+    <weighted-embedded-action uid="e67190ab-c18e-40ef-8869-2e88ef9bfcf9"/>
+</basic-logical-action-container>

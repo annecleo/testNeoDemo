@@ -1,0 +1,5 @@
+<clientCertificatesSettings>
+    <record certificateName="2SS3766Y7NAEQGNHZK7T.pfx"
+        certificateOrigin="" certificatePassword="fLZU9UarCSEyCs3Bw2GuYCJ0kFLgVOIYXA69geei0sbpTr4EOgwIgd+qeRoeZH9V$3"/>
+    <playback certificateName="" certificateOrigin="" policy="none"/>
+</clientCertificatesSettings>

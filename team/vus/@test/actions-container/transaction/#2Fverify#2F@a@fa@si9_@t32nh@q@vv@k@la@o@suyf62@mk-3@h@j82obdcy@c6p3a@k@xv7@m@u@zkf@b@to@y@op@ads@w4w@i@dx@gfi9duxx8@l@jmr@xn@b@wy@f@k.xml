@@ -1,0 +1,73 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/verify/AFaSi9_T32nhQVvKLaOSuyf62Mk-3HJ82obdcyC6p3aKXv7MUZkfBToYOpAdsW4wIDxGfi9duxx8LJmrXnBWyFK"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/f527f221-55b2-4e07-9768-a0344c683314.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f527f221-55b2-4e07-9768-a0344c683314">
+    <embedded-action>b0237215-33c3-464b-bee4-0492aaa73360</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/verify/AFaSi9_T32nhQVvKLaOSuyf62Mk-3HJ82obdcyC6p3aKXv7MUZkfBToYOpAdsW4wIDxGfi9duxx8LJmrXnBWyFKO2WzNiVUK1CaBneG2rzYVrwtNthavcJIR8EpQ4czmkEHJDgl8-jmL6-0D9YyZqQ"
+    path="/verify/AFaSi9_T32nhQVvKLaOSuyf62Mk-3HJ82obdcyC6p3aKXv7MUZkfBToYOpAdsW4wIDxGfi9duxx8LJmrXnBWyFKO2WzNiVUK1CaBneG2rzYVrwtNthavcJIR8EpQ4czmkEHJDgl8-jmL6-0D9YyZqQ"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/f527f221-55b2-4e07-9768-a0344c683314.zip"
+    recordedResponseCode="204" responseSize="0"
+    serverUid="www.google.com" slaProfileEnabled="false"
+    uid="b0237215-33c3-464b-bee4-0492aaa73360" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b0237215-33c3-464b-bee4-0492aaa73360</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_17aacecd-7074-48c9-a6fe-00d34818b6f2.txt</requestContentFileDescription>
+    <header name="referer" value="https://www.google.com/"/>
+    <header name="x-browser-year" value="2026"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="downlink" value="10"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-full-version-list" value="&quot;Not(A:Brand&quot;;v=&quot;8.0.0.0&quot;, &quot;Chromium&quot;;v=&quot;144.0.7559.60&quot;, &quot;Google Chrome&quot;;v=&quot;144.0.7559.60&quot;"/>
+    <header name="x-client-data" value="CJK2yQEIpLbJAQipncoBCLKQywEIk6HLAQiFoM0BCJeMzwEIuJHPAQi1os8BCNSjzwEIkqTPAQiZpc8BCICmzwEI36bPARjshc8BGMGhzwE="/>
+    <header name="sec-ch-ua-form-factors" value="&quot;Desktop&quot;"/>
+    <header name="sec-ch-ua-platform-version" value="&quot;19.0.0&quot;"/>
+    <header name="sec-ch-prefers-color-scheme" value="light"/>
+    <header name="sec-ch-ua-full-version" value="&quot;144.0.7559.60&quot;"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="sec-ch-ua-arch" value="&quot;x86&quot;"/>
+    <header name="cookie" value="SNID=AEEKqItSvEodzpXNMwtJQHBoVLbLeqZeCO4b92upUu9-jzrEb8-yO8ZcpUev87vp68S3OZ8QKrD93_1kH1JQrBkVCqHeDaChRQ; SEARCH_SAMESITE=CgQI954B; HSID=Ai00cgOoeXp5ZkMjR; SSID=AXUwlDGNj-rDh75j5; APISID=jAgHw7yakirVPp9J/ASoYw3KSIkfNuNjvj; SAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-1PAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-3PAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-BUCKET=CNUC; SID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2PtoLjvQbM8VXBuwDUB76ZoHgACgYKASMSARASFQHGX2MicugLFqe7EQRjmqSybNOOjRoVAUF8yKpn_YBTu_0WoeF8WVA9ZOzN0076; __Secure-1PSID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2Pt-MrO-YumlcwuEmsDOr1NxQACgYKAYkSARASFQHGX2MiKKT-SKGsWKcYY5Z29MX-KBoVAUF8yKqx7jj19KQYvaTa5xHKDN0o0076; __Secure-3PSID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2Ptz-lOhrfNMK99PIc9NcrxfQACgYKAUQSARASFQHGX2Mi69M3ogHLjyM2Z1cXTuhovxoVAUF8yKrwfDfK1R3gyCgiCLmzcwKu0076; AEC=AaJma5uXFn1hVFt0JH1lSrOsru5qUvJFkOrM2rXLfLR1Yvv2Y-GhzOoycg; __Secure-1PSIDTS=sidts-CjIB7I_69L5_HkwrepTsNJNiDHCa-M9399gprb99dCzylKKNP2smqaDJLvia_BMQP3UDCRAA; __Secure-3PSIDTS=sidts-CjIB7I_69L5_HkwrepTsNJNiDHCa-M9399gprb99dCzylKKNP2smqaDJLvia_BMQP3UDCRAA; NID=528=VtxumSSn1WVgjeQ3JAEZyM83nHj2qbKKjgQqXUd7v553FTWwNh1TIOFoh0-otH8LaOvf3Z-_Z4LDByhMMQ_FOp2hLSv04nz--gHEONWCTWwIPZwAXODg84vvV0LusqNZ5zsXmdIP-4yLBJdXefNvckTbyuoHUd0ETibAQtgvecwUfwegGbE_Jd8_jvuRuJa4ut_31iYaqx3MP0chcrE9R5JO-qwfWtTOdsCtaa9ViRBC-8Iv3Z5sVxUl5sSsUGzakg91bfNEs1DgUhBTOJqrKEGsn6FVg7jsFRI_ljj8776x8Y_g17btOU4wHipeRBZiCHUyr9MXqdT2frEji8w12wXLlNZtX7lAjfk97_5GE11siw4CYOmYYPFxnlMm_0TPKD_v95jzdwi-HyszxAhonTUZNxA; __Secure-STRP=AD6DogtR0CjHaM3k6BlirH6V2-bDkCzEBIDtbOGPYC9K3IHhUn20kDCmdrFTfLnIlVnuHN4ylI7kCHLB6EgRsjbJgCUCwS3rSw; SIDCC=AKEyXzVRzVz2EVLY5aYBiZbJE8TlnGW4ymmKVh85UtO8yJM6VY0wnIDAl9yrX4dDR8i5lCi9vL8; __Secure-1PSIDCC=AKEyXzX1SzNURTQf7GO5a01f3Ia04JgV_7mZTaX_nlLLlvQWNTlGcRk_phG3Q1kY9ZaL1O7i_w; __Secure-3PSIDCC=AKEyXzVTkl2Hbxg66RLpLJOIaZYTn4LoDhu8Zio7ywZf5u4CSodqT2r18elPC7W_TpjL9gFPSH8"/>
+    <header name="accept-language" value="en-US,en;q=0.9,es;q=0.8"/>
+    <header name="x-browser-validation" value="PHzxKQDW1JU+MpcuUrBanuCqlLI="/>
+    <header name="priority" value="i"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="x-browser-channel" value="stable"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;144&quot;, &quot;Google Chrome&quot;;v=&quot;144&quot;"/>
+    <header name="rtt" value="200"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sec-ch-ua-bitness" value="&quot;64&quot;"/>
+    <header name="sec-ch-ua-model" value="&quot;&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-ch-ua-wow64" value="?0"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="x-browser-copyright" value="Copyright 2026 Google LLC. All Rights reserved."/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 204&#xd;
+content-type: text/plain; charset=UTF-8&#xd;
+date: Thu, 22 Jan 2026 13:55:37 GMT&#xd;
+pragma: no-cache&#xd;
+expires: Fri, 01 Jan 1990 00:00:00 GMT&#xd;
+cache-control: no-cache, no-store, must-revalidate&#xd;
+cross-origin-resource-policy: cross-origin&#xd;
+p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."&#xd;
+content-security-policy-report-only: script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/zkilcrhshc:239:0&#xd;
+cross-origin-opener-policy-report-only: same-origin; report-to=zkilcrhshc:239:0&#xd;
+report-to: {"group":"zkilcrhshc:239:0","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/scaffolding/zkilcrhshc:239:0"}],}&#xd;
+server: scaffolding on HTTPServer2&#xd;
+Content-Length: 0&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+set-cookie: SNID=AEEKqItnltBbLKckFrv9L3-W5Rmew--yH6_Tbwse6RdXTIgBReu8qLx9gwnK2Ya4eHUcz7SAv39H7xFk5qqV6v7q8KktusfEyw; expires=Thu, 23-Jul-2026 14:31:54 GMT; path=/verify; domain=.google.com; Secure; HttpOnly; SameSite=lax&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

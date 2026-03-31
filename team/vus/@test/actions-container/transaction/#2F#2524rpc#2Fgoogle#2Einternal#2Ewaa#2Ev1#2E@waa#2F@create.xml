@@ -1,0 +1,120 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/%24rpc/google.internal.waa.v1.Waa/Create"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/a3d7a060-1d5f-4c42-8a33-77a97c7d0916.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a3d7a060-1d5f-4c42-8a33-77a97c7d0916">
+    <embedded-action>d6b210d6-ec01-46dd-a4e7-a4e37e94de1b</embedded-action>
+    <embedded-action>71162d3d-1a9f-45b7-9d57-788091ba2e62</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="OPTIONS" name="/$rpc/google.internal.waa.v1.Waa/Create"
+    path="/$rpc/google.internal.waa.v1.Waa/Create" postType="6"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/a3d7a060-1d5f-4c42-8a33-77a97c7d0916.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="waa-pa.clients6.google.com" slaProfileEnabled="false"
+    uid="d6b210d6-ec01-46dd-a4e7-a4e37e94de1b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d6b210d6-ec01-46dd-a4e7-a4e37e94de1b.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ef0c02ab-3dda-41a9-b17d-60c1664a0280.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://www.google.com/"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="accept-language" value="en-US,en;q=0.9,es;q=0.8"/>
+    <header name="origin" value="https://www.google.com"/>
+    <header name="access-control-request-headers" value="authorization,content-type,x-goog-api-key,x-goog-authuser,x-user-agent"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="access-control-request-method" value="POST"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+access-control-allow-origin: https://www.google.com&#xd;
+vary: origin&#xd;
+vary: referer&#xd;
+vary: x-origin&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-methods: DELETE,GET,HEAD,OPTIONS,PATCH,POST,PUT&#xd;
+access-control-allow-headers: authorization,content-type,x-goog-api-key,x-goog-authuser,x-user-agent&#xd;
+access-control-max-age: 3600&#xd;
+date: Thu, 22 Jan 2026 13:55:38 GMT&#xd;
+content-type: text/html&#xd;
+server: ESF&#xd;
+Content-Length: 0&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+x-content-type-options: nosniff&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/plain"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 09 Jan 2026 00:30:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/shared_dict/homepage/68193178e8cd02a943e84943dfe489fd7a57de2bd506e594936f44a4b9f86cce.dict"
+    path="/shared_dict/homepage/68193178e8cd02a943e84943dfe489fd7a57de2bd506e594936f44a4b9f86cce.dict"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/a3d7a060-1d5f-4c42-8a33-77a97c7d0916.zip"
+    recordedResponseCode="200" responseSize="167274"
+    serverUid="www.google.com" slaProfileEnabled="false"
+    uid="71162d3d-1a9f-45b7-9d57-788091ba2e62" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d10c5fc4-086d-4d49-ab90-0116f78207f6</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d10c5fc4-086d-4d49-ab90-0116f78207f6.txt</requestContentFileDescription>
+    <header name="x-browser-year" value="2026"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="downlink" value="10"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-full-version-list" value="&quot;Not(A:Brand&quot;;v=&quot;8.0.0.0&quot;, &quot;Chromium&quot;;v=&quot;144.0.7559.60&quot;, &quot;Google Chrome&quot;;v=&quot;144.0.7559.60&quot;"/>
+    <header name="x-client-data" value="CJK2yQEIpLbJAQipncoBCLKQywEIk6HLAQiFoM0BCJeMzwEIuJHPAQi1os8BCNSjzwEIkqTPAQiZpc8BCICmzwEI36bPARjshc8BGMGhzwE="/>
+    <header name="sec-ch-ua-form-factors" value="&quot;Desktop&quot;"/>
+    <header name="sec-ch-ua-platform-version" value="&quot;19.0.0&quot;"/>
+    <header name="sec-ch-prefers-color-scheme" value="light"/>
+    <header name="sec-ch-ua-full-version" value="&quot;144.0.7559.60&quot;"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="sec-ch-ua-arch" value="&quot;x86&quot;"/>
+    <header name="accept-language" value="en-US,en;q=0.9,es;q=0.8"/>
+    <header name="x-browser-validation" value="PHzxKQDW1JU+MpcuUrBanuCqlLI="/>
+    <header name="priority" value="u=4, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="x-browser-channel" value="stable"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;144&quot;, &quot;Google Chrome&quot;;v=&quot;144&quot;"/>
+    <header name="rtt" value="200"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sec-ch-ua-bitness" value="&quot;64&quot;"/>
+    <header name="sec-ch-ua-model" value="&quot;&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-ch-ua-wow64" value="?0"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="x-browser-copyright" value="Copyright 2026 Google LLC. All Rights reserved."/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+content-encoding: br&#xd;
+content-security-policy: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/search-dictionary-policy&#xd;
+cross-origin-resource-policy: same-origin&#xd;
+cross-origin-opener-policy: same-origin; report-to="search-dictionary-policy"&#xd;
+report-to: {"group":"search-dictionary-policy","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/search-dictionary-policy"}]}&#xd;
+content-length: 45574&#xd;
+x-content-type-options: nosniff&#xd;
+use-as-dictionary: match="/*"&#xd;
+server: sffe&#xd;
+x-xss-protection: 0&#xd;
+date: Fri, 16 Jan 2026 06:52:31 GMT&#xd;
+expires: Sat, 16 Jan 2027 06:52:31 GMT&#xd;
+cache-control: public, max-age=31536000&#xd;
+last-modified: Fri, 09 Jan 2026 00:30:00 GMT&#xd;
+content-type: text/plain&#xd;
+vary: Accept-Encoding&#xd;
+age: 543787&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

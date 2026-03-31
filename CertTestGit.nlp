@@ -1,0 +1,19 @@
+# Project description file
+
+project.name=CertTestGit
+project.version=8.10
+project.original.version=8.10
+product.name=NeoLoad
+product.original.name=NeoLoad
+ssh.trustUnknownHosts.MONITORS=false
+monitor.tls.insecure=false
+product.original.version=2025.1.0
+project.workspace=5e3acde2e860a132744ca916
+project.test-settings=05d8cbc1-6882-4b40-9a64-cfa6952db711
+project.test-settings-name=22Jan-CS0478993(Ann)
+project.is-open-test-settings-after-upload=false
+project.id=f693d4da-d2cb-439e-9914-386a44ef1792
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/annecleo/testNeoDemo.git

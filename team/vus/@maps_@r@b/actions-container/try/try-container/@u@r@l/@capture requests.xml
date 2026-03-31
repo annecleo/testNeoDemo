@@ -1,0 +1,120 @@
+<browser-action actionType="BrowserCaptureRequests" isHit="false"
+    name="Capture requests" uid="3900cf39-35d7-4d46-9edc-caeac7dcba8f">
+    <description>Configure the capture of HTTP requests metrics for analysis purpose. 
+It allows to capture the metrics (duration, TTFB, success...) of the requests sent and responses received between the browser and the server.
+By default when no regexp/url/resourceType parameter is specified, then all the HTTP request metrics are aggregated in a single group.
+When a matching criteria is defined (regexp/url/resourceType), the metrics of all HTTP requests matching it are aggregated in a group, and the non-matching one in a different group (for example with regexp (.*)\.html then requests will be split in two different groups: one for all HTML pages and another one for all other resources). When multiple matching criteria are defined (regexp/url/resourceType), they are applied in order they are defined.
+
+Possible parameters are:&#xd;
+- regexp (optional): The regular expression to group the requests (the matching check is applied on the full request URL: scheme, host name, port number, path and URL parameters).  Default value is ".*".&#xd;
+- url (optional): The URL to group the requests (excluding query parameters). &#xd;
+- resourceType (optional): The resource type to group the requests (possible values are document, stylesheet, image, media, font, script, texttrack, xhr, fetch, eventsource, websocket, manifest, ping, other). &#xd;
+- includeCache (optional): By default, only the requests sent over the network are captured (including the requests with 304 'Not Modified' response status since it includes network exchange). Set the value to true to capture also the requests locally loaded from the browser memory or disk cache (no network interaction). Default value is "false".</description>
+    <custom-action-parameter name="url" type="TEXT" value="https://atlas.microsoft.com/map/tile"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://z.clarity.ms/collect"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://atlas.microsoft.com/map/tileset"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://atlas.microsoft.com/map/attribution"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://atlas.microsoft.com/styling/glyphs/Roboto-Medium/0-255.pbf"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://atlas.microsoft.com/styling/glyphs/Roboto-Regular/0-255.pbf"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://atlas.microsoft.com/styling/glyphs/Roboto-MediumItalic/0-255.pbf"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://atlas.microsoft.com/styling/styles"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://samples.azuremaps.com/data/geojson/GpsTrace.json"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://atlas.microsoft.com/styling/sprites/road/sprite.png"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://atlas.microsoft.com/styling/styles/road"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://samples.azuremaps.com/api/GetAzureMapsSasToken"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://atlas.microsoft.com/styling/sprites/road/sprite.json"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://cdn-cookieyes.com/client_data/38eaf12b617b1c2c20493565/config/GRCDKGfM.json"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://atlas.microsoft.com/styling/glyphs/Roboto-Regular/8192-8447.pbf"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://atlas.microsoft.com/styling/glyphs/Roboto-RegularItalic/0-255.pbf"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://cdn-cookieyes.com/client_data/38eaf12b617b1c2c20493565/LMyBFAHa.json"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://atlas.microsoft.com/styling/glyphs/Roboto-Bold/0-255.pbf"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://cdn-cookieyes.com/client_data/38eaf12b617b1c2c20493565/audit-table/FKWg6u1u.json"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://cdn-cookieyes.com/client_data/38eaf12b617b1c2c20493565/translations/UggTxPPw.json"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://samples.azuremaps.com/samples.json"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="image"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="script"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="stylesheet"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="ping"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="document"/>
+    <embedded-action>73757b4d-d4e7-49ef-ba75-e0b820654c6c</embedded-action>
+    <embedded-action>35bf9d65-817e-44fa-a311-e2b842be0c37</embedded-action>
+    <embedded-action>8a03f90f-88cd-47ca-b20e-fbc3064437f4</embedded-action>
+    <embedded-action>e0009798-84bc-4227-9b16-65d3ff0ae4b5</embedded-action>
+    <embedded-action>ea774b47-a136-422b-bca1-98e36efc3b5d</embedded-action>
+    <embedded-action>5a8271bb-e2ed-4feb-b727-8d6ebd8b4951</embedded-action>
+    <embedded-action>f51e65b2-3656-4723-a5a9-5b7626d27ccd</embedded-action>
+    <embedded-action>cad1867f-102f-44be-8122-f31a7a3b9494</embedded-action>
+    <embedded-action>e802b7f2-5ba1-48e3-a6cd-16f4dff5d037</embedded-action>
+    <embedded-action>b28530c6-cfa9-4fd5-86a1-63261b931697</embedded-action>
+    <embedded-action>63b56212-9dad-475d-a2f5-aeb2997ec6e2</embedded-action>
+    <embedded-action>171dc61f-7b2e-4d3a-aaf2-2ea1fedac9ee</embedded-action>
+    <embedded-action>b652a3b7-be73-46e2-b8e9-b48b8feadec0</embedded-action>
+    <embedded-action>3cbb0fd1-5570-418b-af77-0a8d23fe027a</embedded-action>
+    <embedded-action>1b6a30f2-7bc9-4181-a0b9-6de11b636e0d</embedded-action>
+    <embedded-action>130535ca-6ee6-4e5d-8bb3-811aafc57726</embedded-action>
+    <embedded-action>85c3c77c-dcd8-4b6e-9c60-981b95e4b0d6</embedded-action>
+    <embedded-action>8978919d-c34f-46b7-bcb3-6085fd9317ce</embedded-action>
+    <embedded-action>59186364-2326-45fa-a8f6-9cc77c62e234</embedded-action>
+    <embedded-action>6ea9785a-9897-4715-aa25-d6b16722bde4</embedded-action>
+    <embedded-action>030fda7e-d319-40b3-8eb2-4bde5a0efa1e</embedded-action>
+    <embedded-action>6d502019-4bd8-468b-a789-fa40b66750f3</embedded-action>
+    <embedded-action>6dc260b9-cb72-4325-98b3-1ba7fdd772d1</embedded-action>
+    <embedded-action>d7db5de3-bcf6-4ffb-b6aa-49e366d5d111</embedded-action>
+    <embedded-action>5ff9afa9-2843-4e92-b4d7-1a2dff826185</embedded-action>
+    <embedded-action>b14e8fd1-00d0-4d56-929e-53975390dd66</embedded-action>
+    <embedded-action>f6301db3-4d83-4397-9fe5-8313c7cade55</embedded-action>
+</browser-action>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="73757b4d-d4e7-49ef-ba75-e0b820654c6c" value="https://atlas.microsoft.com/map/tile"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="35bf9d65-817e-44fa-a311-e2b842be0c37" value="https://z.clarity.ms/collect"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="8a03f90f-88cd-47ca-b20e-fbc3064437f4" value="https://atlas.microsoft.com/map/tileset"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="e0009798-84bc-4227-9b16-65d3ff0ae4b5" value="https://atlas.microsoft.com/map/attribution"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="ea774b47-a136-422b-bca1-98e36efc3b5d" value="https://atlas.microsoft.com/styling/glyphs/Roboto-Medium/0-255.pbf"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="5a8271bb-e2ed-4feb-b727-8d6ebd8b4951" value="https://atlas.microsoft.com/styling/glyphs/Roboto-Regular/0-255.pbf"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="f51e65b2-3656-4723-a5a9-5b7626d27ccd" value="https://atlas.microsoft.com/styling/glyphs/Roboto-MediumItalic/0-255.pbf"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="cad1867f-102f-44be-8122-f31a7a3b9494" value="https://atlas.microsoft.com/styling/styles"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="e802b7f2-5ba1-48e3-a6cd-16f4dff5d037" value="https://samples.azuremaps.com/data/geojson/GpsTrace.json"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="b28530c6-cfa9-4fd5-86a1-63261b931697" value="https://atlas.microsoft.com/styling/sprites/road/sprite.png"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="63b56212-9dad-475d-a2f5-aeb2997ec6e2" value="https://atlas.microsoft.com/styling/styles/road"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="171dc61f-7b2e-4d3a-aaf2-2ea1fedac9ee" value="https://samples.azuremaps.com/api/GetAzureMapsSasToken"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="b652a3b7-be73-46e2-b8e9-b48b8feadec0" value="https://atlas.microsoft.com/styling/sprites/road/sprite.json"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="3cbb0fd1-5570-418b-af77-0a8d23fe027a" value="https://cdn-cookieyes.com/client_data/38eaf12b617b1c2c20493565/config/GRCDKGfM.json"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="1b6a30f2-7bc9-4181-a0b9-6de11b636e0d" value="https://atlas.microsoft.com/styling/glyphs/Roboto-Regular/8192-8447.pbf"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="130535ca-6ee6-4e5d-8bb3-811aafc57726" value="https://atlas.microsoft.com/styling/glyphs/Roboto-RegularItalic/0-255.pbf"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="85c3c77c-dcd8-4b6e-9c60-981b95e4b0d6" value="https://cdn-cookieyes.com/client_data/38eaf12b617b1c2c20493565/LMyBFAHa.json"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="8978919d-c34f-46b7-bcb3-6085fd9317ce" value="https://atlas.microsoft.com/styling/glyphs/Roboto-Bold/0-255.pbf"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="59186364-2326-45fa-a8f6-9cc77c62e234" value="https://cdn-cookieyes.com/client_data/38eaf12b617b1c2c20493565/audit-table/FKWg6u1u.json"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="6ea9785a-9897-4715-aa25-d6b16722bde4" value="https://cdn-cookieyes.com/client_data/38eaf12b617b1c2c20493565/translations/UggTxPPw.json"/>
+<browser-request-action name="" slaProfileEnabled="false" type="url"
+    uid="030fda7e-d319-40b3-8eb2-4bde5a0efa1e" value="https://samples.azuremaps.com/samples.json"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="6d502019-4bd8-468b-a789-fa40b66750f3" value="image"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="6dc260b9-cb72-4325-98b3-1ba7fdd772d1" value="script"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="d7db5de3-bcf6-4ffb-b6aa-49e366d5d111" value="stylesheet"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="5ff9afa9-2843-4e92-b4d7-1a2dff826185" value="ping"/>
+<browser-request-action name="" slaProfileEnabled="false"
+    type="resourceType" uid="b14e8fd1-00d0-4d56-929e-53975390dd66" value="document"/>
+<browser-request-action name="" slaProfileEnabled="false" type="regexp"
+    uid="f6301db3-4d83-4397-9fe5-8313c7cade55" value=".*"/>

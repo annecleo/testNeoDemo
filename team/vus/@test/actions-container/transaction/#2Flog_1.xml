@@ -1,0 +1,121 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/log_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/108a38ff-bab1-4ce5-9f84-2982d276cfce.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="108a38ff-bab1-4ce5-9f84-2982d276cfce">
+    <embedded-action>4cd89741-4895-483f-8a7d-c09fb31a2947</embedded-action>
+    <embedded-action>ab36d153-face-4c65-84c1-e34ecb131d96</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="OPTIONS" name="/log" path="/log" postType="6"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/108a38ff-bab1-4ce5-9f84-2982d276cfce.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="play.google.com" slaProfileEnabled="false"
+    uid="4cd89741-4895-483f-8a7d-c09fb31a2947" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4cd89741-4895-483f-8a7d-c09fb31a2947</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3ba092af-36b3-4b5c-bb54-d804109c5062.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="format"
+        recordRawValue="json" separator="=" value="json" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="hasfast"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="authuser"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://www.google.com/"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="accept-language" value="en-US,en;q=0.9,es;q=0.8"/>
+    <header name="origin" value="https://www.google.com"/>
+    <header name="access-control-request-headers" value="authorization,content-encoding,content-type,x-goog-authuser"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="access-control-request-method" value="POST"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+access-control-allow-origin: https://www.google.com&#xd;
+access-control-allow-methods: GET, POST, OPTIONS&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: X-Playlog-Web,authorization,authorization,content-encoding,content-type,x-goog-authuser,origin&#xd;
+content-type: text/plain; charset=UTF-8&#xd;
+date: Thu, 22 Jan 2026 13:55:40 GMT&#xd;
+server: Playlog&#xd;
+Content-Length: 0&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 22 Jan 2026 04:34:52 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/xjs/_/ss/k=xjs.s.BYR5Rf_Hn9Q.L.B1.O/am=AIAAAABBAAAAAAAAAAAAIAAAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAgAAACQCAAJgAAAAAAAOADAACkAAAAAAAAHgADQpABAAAAAAAAAkAAAAAkAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAgAAAEEAIAAAAAQAEAEAAAAAAAAAAAAAAAABAFAAAAABAAAAAAIA4AAAAAAAAAAAAAEAAAAAAIAIABIAYAAAAAgGAAAAAAEAAAABAACAAAAAAgAAARFBAAQMAAAAAAQAAAAAAAAIACYAQBBAEIUAgBAAA4AAAAAAAAAAAACAAAAAAAgAAABAQgBAAAAAAEAAAgAAAAcgAAAAAEAAABCAQAvBGIAQAAIBEAEAEAIABAAAQAAAAABQEgAAAAAAAAAAAAAEYAAAAAAABAAsBFFBEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ/d=1/ed=1/br=1/cb=loaded_h_0/rs=ACT90oHdDJXmm-0qjQb5zUgVXdarfE7RKw/m=X3N0Bf,attn,cdos,gwc,hsm,jsa,mb4ZUb,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl,YV5bee,d,csi"
+    path="/xjs/_/ss/k=xjs.s.BYR5Rf_Hn9Q.L.B1.O/am=AIAAAABBAAAAAAAAAAAAIAAAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAgAAACQCAAJgAAAAAAAOADAACkAAAAAAAAHgADQpABAAAAAAAAAkAAAAAkAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAgAAAEEAIAAAAAQAEAEAAAAAAAAAAAAAAAABAFAAAAABAAAAAAIA4AAAAAAAAAAAAAEAAAAAAIAIABIAYAAAAAgGAAAAAAEAAAABAACAAAAAAgAAARFBAAQMAAAAAAQAAAAAAAAIACYAQBBAEIUAgBAAA4AAAAAAAAAAAACAAAAAAAgAAABAQgBAAAAAAEAAAgAAAAcgAAAAAEAAABCAQAvBGIAQAAIBEAEAEAIABAAAQAAAAABQEgAAAAAAAAAAAAAEYAAAAAAABAAsBFFBEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ/d=1/ed=1/br=1/cb=loaded_h_0/rs=ACT90oHdDJXmm-0qjQb5zUgVXdarfE7RKw/m=X3N0Bf,attn,cdos,gwc,hsm,jsa,mb4ZUb,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl,YV5bee,d,csi"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/108a38ff-bab1-4ce5-9f84-2982d276cfce.zip"
+    recordedResponseCode="200" responseSize="1866"
+    serverUid="www.google.com" slaProfileEnabled="false"
+    uid="ab36d153-face-4c65-84c1-e34ecb131d96" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1e7199eb-c6ad-4fd3-a2c4-a36ab476b15f.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1e7199eb-c6ad-4fd3-a2c4-a36ab476b15f.txt</requestContentFileDescription>
+    <header name="referer" value="https://www.google.com/"/>
+    <header name="x-browser-year" value="2026"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="downlink" value="10"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-full-version-list" value="&quot;Not(A:Brand&quot;;v=&quot;8.0.0.0&quot;, &quot;Chromium&quot;;v=&quot;144.0.7559.60&quot;, &quot;Google Chrome&quot;;v=&quot;144.0.7559.60&quot;"/>
+    <header name="x-client-data" value="CJK2yQEIpLbJAQipncoBCLKQywEIk6HLAQiFoM0BCJeMzwEIuJHPAQi1os8BCNSjzwEIkqTPAQiZpc8BCICmzwEI36bPARjshc8BGMGhzwE="/>
+    <header name="sec-ch-ua-form-factors" value="&quot;Desktop&quot;"/>
+    <header name="sec-ch-ua-platform-version" value="&quot;19.0.0&quot;"/>
+    <header name="sec-ch-prefers-color-scheme" value="light"/>
+    <header name="sec-ch-ua-full-version" value="&quot;144.0.7559.60&quot;"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="sec-ch-ua-arch" value="&quot;x86&quot;"/>
+    <header name="cookie" value="SEARCH_SAMESITE=CgQI954B; HSID=Ai00cgOoeXp5ZkMjR; SSID=AXUwlDGNj-rDh75j5; APISID=jAgHw7yakirVPp9J/ASoYw3KSIkfNuNjvj; SAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-1PAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-3PAPISID=rMZzKbRGNPQT-tVF/APrpMVr536Q2RoQb9; __Secure-BUCKET=CNUC; SID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2PtoLjvQbM8VXBuwDUB76ZoHgACgYKASMSARASFQHGX2MicugLFqe7EQRjmqSybNOOjRoVAUF8yKpn_YBTu_0WoeF8WVA9ZOzN0076; __Secure-1PSID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2Pt-MrO-YumlcwuEmsDOr1NxQACgYKAYkSARASFQHGX2MiKKT-SKGsWKcYY5Z29MX-KBoVAUF8yKqx7jj19KQYvaTa5xHKDN0o0076; __Secure-3PSID=g.a0005giRl7rBj_MowPXBhlM4wxr9z8JspdJ9FRjSSyDY3OzRm2Ptz-lOhrfNMK99PIc9NcrxfQACgYKAUQSARASFQHGX2Mi69M3ogHLjyM2Z1cXTuhovxoVAUF8yKrwfDfK1R3gyCgiCLmzcwKu0076; AEC=AaJma5uXFn1hVFt0JH1lSrOsru5qUvJFkOrM2rXLfLR1Yvv2Y-GhzOoycg; NID=528=VtxumSSn1WVgjeQ3JAEZyM83nHj2qbKKjgQqXUd7v553FTWwNh1TIOFoh0-otH8LaOvf3Z-_Z4LDByhMMQ_FOp2hLSv04nz--gHEONWCTWwIPZwAXODg84vvV0LusqNZ5zsXmdIP-4yLBJdXefNvckTbyuoHUd0ETibAQtgvecwUfwegGbE_Jd8_jvuRuJa4ut_31iYaqx3MP0chcrE9R5JO-qwfWtTOdsCtaa9ViRBC-8Iv3Z5sVxUl5sSsUGzakg91bfNEs1DgUhBTOJqrKEGsn6FVg7jsFRI_ljj8776x8Y_g17btOU4wHipeRBZiCHUyr9MXqdT2frEji8w12wXLlNZtX7lAjfk97_5GE11siw4CYOmYYPFxnlMm_0TPKD_v95jzdwi-HyszxAhonTUZNxA; __Secure-1PSIDTS=sidts-CjIB7I_69JXLUuheCETrz7m93J3SZ0V2JuPEx7PpmYacotCsSmkLJvnEmdlRtOYbS7LAnBAA; __Secure-3PSIDTS=sidts-CjIB7I_69JXLUuheCETrz7m93J3SZ0V2JuPEx7PpmYacotCsSmkLJvnEmdlRtOYbS7LAnBAA; __Secure-STRP=AD6DogtdKohFiORwcR-evP5JHgkzbVXxNUWltEi-LitR_hqkGLJZo2d7Ietc6gz7aslF20Mghsvz3wjWBtFoGAMY6eXP5VUJtgwl; SIDCC=AKEyXzUBazJEsSHltHcQxaNpLt_4j60u-JdVoa6dXQFgN7LtZXmegvuwwVtLTVpQQeDSFXzF41g; __Secure-1PSIDCC=AKEyXzU7whYLJj03WMusjoJhKb_iFypHJUtYHW_-KeU0qi7M4gcSCdsLzkeUPlXIEBk82uauaA; __Secure-3PSIDCC=AKEyXzWDVjFb6N3zIsrDJ1vEEAQ_dd9DX0g8wiGlsTe51b6dTHSyGGt4WtQalFNyS0G2yiT6zFQ"/>
+    <header name="accept-language" value="en-US,en;q=0.9,es;q=0.8"/>
+    <header name="x-browser-validation" value="PHzxKQDW1JU+MpcuUrBanuCqlLI="/>
+    <header name="priority" value="u=0"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="x-browser-channel" value="stable"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;144&quot;, &quot;Google Chrome&quot;;v=&quot;144&quot;"/>
+    <header name="rtt" value="150"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="sec-ch-ua-bitness" value="&quot;64&quot;"/>
+    <header name="sec-ch-ua-model" value="&quot;&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-ch-ua-wow64" value="?0"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="x-browser-copyright" value="Copyright 2026 Google LLC. All Rights reserved."/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+content-encoding: br&#xd;
+content-security-policy-report-only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/gws-team&#xd;
+cross-origin-resource-policy: cross-origin&#xd;
+cross-origin-opener-policy: same-origin; report-to="gws-team"&#xd;
+report-to: {"group":"gws-team","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws-team"}]}&#xd;
+content-length: 918&#xd;
+x-content-type-options: nosniff&#xd;
+server: sffe&#xd;
+x-xss-protection: 0&#xd;
+date: Thu, 22 Jan 2026 05:35:04 GMT&#xd;
+expires: Fri, 22 Jan 2027 05:35:04 GMT&#xd;
+cache-control: public, immutable, max-age=31536000&#xd;
+last-modified: Thu, 22 Jan 2026 04:34:52 GMT&#xd;
+content-type: text/css; charset=UTF-8&#xd;
+vary: Accept-Encoding, Origin&#xd;
+age: 30036&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

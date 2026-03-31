@@ -1,0 +1,54 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/log"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/fb03030f-1ff2-408a-8df5-3cf2dc438c31.zip"
+    slaProfileEnabled="false" thinkTime="63"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fb03030f-1ff2-408a-8df5-3cf2dc438c31">
+    <embedded-action>d3d638a5-1551-4fad-b4a5-553e40acecd1</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="OPTIONS" name="/log" path="/log" postType="6"
+    recordedArtifactZipFileName="team/vus/@test/%resources%/recorded-artifacts/fb03030f-1ff2-408a-8df5-3cf2dc438c31.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="play.google.com" slaProfileEnabled="false"
+    uid="d3d638a5-1551-4fad-b4a5-553e40acecd1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d3d638a5-1551-4fad-b4a5-553e40acecd1</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2647af8e-6ed9-4e11-80b7-b92d78c5a9eb.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="format"
+        recordRawValue="json" separator="=" value="json" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="hasfast"
+        recordRawValue="true" separator="=" value="true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="authuser"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://www.google.com/"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="accept-language" value="en-US,en;q=0.9,es;q=0.8"/>
+    <header name="origin" value="https://www.google.com"/>
+    <header name="access-control-request-headers" value="authorization,content-encoding,content-type,x-goog-authuser"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="access-control-request-method" value="POST"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+access-control-allow-origin: https://www.google.com&#xd;
+access-control-allow-methods: GET, POST, OPTIONS&#xd;
+access-control-max-age: 86400&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: X-Playlog-Web,authorization,authorization,content-encoding,content-type,x-goog-authuser,origin&#xd;
+content-type: text/plain; charset=UTF-8&#xd;
+date: Thu, 22 Jan 2026 13:55:40 GMT&#xd;
+server: Playlog&#xd;
+Content-Length: 0&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
