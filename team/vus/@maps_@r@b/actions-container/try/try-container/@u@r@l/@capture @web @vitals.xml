@@ -1,0 +1,38 @@
+<browser-action actionType="BrowserCaptureWebVitals" isHit="false"
+    name="Capture Web Vitals" uid="d9ad35e5-601d-41f5-8719-de8a5e9815a5">
+    <description>Captures Core Web Vitals metrics during Virtual User navigation. This helps detect performance issues that affect the user experience.
+
+NeoLoad collects the following metrics for each defined URL:
+
+- Largest Contentful Paint (LCP)
+- Interaction to Next Paint (INP)
+- Cumulative Layout Shift (CLS)
+
+If you don't define a URL, NeoLoad aggregates metrics across all visited pages.
+
+To collect all metrics, place this action before the first Navigate action. The Virtual User needs to stay a minimum amount of time and perform at least one interaction to ensure Web Vitals were collected for a given page.
+Possible parameters are:&#xd;
+- url (optional): A url (excluding query parameters) to group Web Vitals metrics data under.</description>
+    <custom-action-parameter name="url" type="TEXT" value="https://samples.azuremaps.com/"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://samples.azuremaps.com/animations/animate-a-gps-trace"/>
+    <embedded-action>979772bb-a114-4a44-9d9f-1c9dd141b491</embedded-action>
+    <embedded-action>95f0f36a-1afe-4e9b-8bfa-29dc303e6701</embedded-action>
+</browser-action>
+<browser-url-web-vital-action name=""
+    uid="979772bb-a114-4a44-9d9f-1c9dd141b491" url="https://samples.azuremaps.com/">
+    <embedded-action>b698a35b-a2e6-4405-a264-48a7ba0c7e27</embedded-action>
+    <embedded-action>ac3c5f2d-f746-4b34-b384-002624510be6</embedded-action>
+    <embedded-action>c00d244f-93d9-4bce-8a42-d73818353a83</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="b698a35b-a2e6-4405-a264-48a7ba0c7e27"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="ac3c5f2d-f746-4b34-b384-002624510be6"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="c00d244f-93d9-4bce-8a42-d73818353a83"/>
+<browser-url-web-vital-action name=""
+    uid="95f0f36a-1afe-4e9b-8bfa-29dc303e6701" url="https://samples.azuremaps.com/animations/animate-a-gps-trace">
+    <embedded-action>83417186-ed53-4866-aa25-ab647b9fa35a</embedded-action>
+    <embedded-action>b2bacda4-6b79-41fa-8646-e61d46f15560</embedded-action>
+    <embedded-action>9cac8f4b-31ac-40f6-9195-b4057fe1b6b3</embedded-action>
+</browser-url-web-vital-action>
+<browser-metric-web-vital-action metric="LCP" name="" uid="83417186-ed53-4866-aa25-ab647b9fa35a"/>
+<browser-metric-web-vital-action metric="INP" name="" uid="b2bacda4-6b79-41fa-8646-e61d46f15560"/>
+<browser-metric-web-vital-action metric="CLS" name="" uid="9cac8f4b-31ac-40f6-9195-b4057fe1b6b3"/>
