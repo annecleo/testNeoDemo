@@ -30,7 +30,7 @@
         enabled="false" isLoopBack="false" name="wireless_32768">
         <!--****** LG ADDRESSES ******-->
         <lg-address enabled="false" hostname="tri-6fnvj64">
-            <ip value="192.168.1.5"/>
+            <ip value="192.168.1.125"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
