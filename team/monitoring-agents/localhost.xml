@@ -101,12 +101,6 @@
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
     <lg-networkiface
-        description="Bluetooth Device (Personal Area Network)-Npcap Packet Driver (NPCAP)-0000"
-        enabled="false" isLoopBack="false" name="ethernet_0">
-        <!--****** LG ADDRESSES ******-->
-        <!--****** END LG ADDRESSES ******-->
-    </lg-networkiface>
-    <lg-networkiface
         description="Intel(R) Wi-Fi 7 BE200 320MHz #4-Zscaler LightWeight Filter-0000"
         enabled="false" isLoopBack="false" name="wireless_9">
         <!--****** LG ADDRESSES ******-->
