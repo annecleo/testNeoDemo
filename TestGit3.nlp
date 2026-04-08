@@ -1,0 +1,16 @@
+# Project description file
+
+project.name=TestGit3
+project.version=8.10
+project.original.version=8.10
+product.name=NeoLoad
+product.original.name=NeoLoad
+ssh.trustUnknownHosts.MONITORS=false
+monitor.tls.insecure=false
+product.original.version=2025.3.1
+project.is-open-test-settings-after-upload=false
+project.id=b2ee88d7-41a1-43d2-91d5-206d6bdd299c
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/annecleo/testNeoDemo.git
