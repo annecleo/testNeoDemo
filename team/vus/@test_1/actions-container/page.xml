@@ -1,0 +1,19 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="page"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@test_1/%resources%/recorded-artifacts/829cd909-0b22-43a6-8a2c-0bee566a0788.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="829cd909-0b22-43a6-8a2c-0bee566a0788">
+    <embedded-action>cda29425-c662-4989-bb87-868ae54c0d47</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="http_request_" path="/" postType="1"
+    serverUid="host" slaProfileEnabled="false"
+    uid="cda29425-c662-4989-bb87-868ae54c0d47" useKeepAlive="false">
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
