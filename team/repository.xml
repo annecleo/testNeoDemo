@@ -1,0 +1,330 @@
+<!--****** MONITORED HOSTS ******-->
+<monitored-host-system host-name="" load-generator="false" proxy-id="" uid="NeoLoad">
+    <embedded-action>5d0a88fd-ed60-42ae-81c0-835125249570</embedded-action>
+</monitored-host-system>
+<!--****** END MONITORED HOSTS ******-->
+<!--****** MONITOR CONNECTIONS ******-->
+<connection-system interval="1000" name="NeoLoad" server-port="0" uid="5d0a88fd-ed60-42ae-81c0-835125249570">
+    <monitor-category name="Default" short-display-name="Default">
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="UserLoad" sampling="0" unit=""/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="throughput" sampling="0" unit="Mb/s"/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="Alerts" sampling="0" unit=""/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="CriticalAlerts" sampling="0" unit=""/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="WarningAlerts" sampling="0" unit=""/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="cpu" sampling="0"
+            threshold="41cbcbee-ec33-483d-a151-7c2fb05a6606" unit="%"/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="memory" sampling="0"
+            threshold="f69be50e-811e-402b-a2b3-67f175c9c0e5" unit="%"/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="memoryos" sampling="0"
+            threshold="281033a4-0c9f-4f88-98a4-6c91c579221c" unit="%"/>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="threadcount" sampling="0" unit=""/>
+        <monitor-category name="Load Generator Connections" short-display-name="Load Generator Connections">
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="connectedlg" sampling="0" unit=""/>
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="totallgdisconnections"
+                sampling="0"
+                threshold="f072ca82-f9e7-4497-a29f-33ca48bd4204" unit=""/>
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="totallgreconnections" sampling="0" unit=""/>
+        </monitor-category>
+        <monitor-category name="Network" short-display-name="Network">
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="otcp.NeoLoad" sampling="0" unit=""/>
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="tcp.NeoLoad" sampling="0" unit=""/>
+            <monitor-category
+                name="wireless_11 (Intel(R) Wi-Fi 7 BE200 320MHz #4-WFP 802.3 MAC Layer LightWeight Filter-0000)" short-display-name="wireless_11 (Intel(R) Wi-Fi 7 BE200 320MHz #4-WFP 802.3 MAC Layer LightWeight Filter-0000)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_11"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_11"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wireless_10 (Intel(R) Wi-Fi 7 BE200 320MHz #4-QoS Packet Scheduler-0000)" short-display-name="wireless_10 (Intel(R) Wi-Fi 7 BE200 320MHz #4-QoS Packet Scheduler-0000)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_10"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_10"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="ethernet_32770 (Bluetooth Device (Personal Area Network))" short-display-name="ethernet_32770 (Bluetooth Device (Personal Area Network))">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~ethernet_32770"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~ethernet_32770"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="ethernet_32771 (Realtek USB GbE Family Controller #2)" short-display-name="ethernet_32771 (Realtek USB GbE Family Controller #2)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~ethernet_32771"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~ethernet_32771"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wireless_32768 (Intel(R) Wi-Fi 7 BE200 320MHz)" short-display-name="wireless_32768 (Intel(R) Wi-Fi 7 BE200 320MHz)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_32768"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_32768"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wireless_0 (Intel(R) Wi-Fi 7 BE200 320MHz-WFP Native MAC Layer LightWeight Filter-0000)" short-display-name="wireless_0 (Intel(R) Wi-Fi 7 BE200 320MHz-WFP Native MAC Layer LightWeight Filter-0000)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_0"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_0"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wireless_32771 (Intel(R) Wi-Fi 7 BE200 320MHz #4)" short-display-name="wireless_32771 (Intel(R) Wi-Fi 7 BE200 320MHz #4)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_32771"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_32771"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wireless_2 (Intel(R) Wi-Fi 7 BE200 320MHz-Npcap Packet Driver (NPCAP)-0000)" short-display-name="wireless_2 (Intel(R) Wi-Fi 7 BE200 320MHz-Npcap Packet Driver (NPCAP)-0000)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_2"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_2"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wireless_1 (Intel(R) Wi-Fi 7 BE200 320MHz-Native WiFi Filter Driver-0000)" short-display-name="wireless_1 (Intel(R) Wi-Fi 7 BE200 320MHz-Native WiFi Filter Driver-0000)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_1"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_1"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wireless_4 (Intel(R) Wi-Fi 7 BE200 320MHz-QoS Packet Scheduler-0000)" short-display-name="wireless_4 (Intel(R) Wi-Fi 7 BE200 320MHz-QoS Packet Scheduler-0000)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_4"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_4"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wireless_3 (Intel(R) Wi-Fi 7 BE200 320MHz-Zscaler LightWeight Filter-0000)" short-display-name="wireless_3 (Intel(R) Wi-Fi 7 BE200 320MHz-Zscaler LightWeight Filter-0000)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_3"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_3"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wireless_6 (Intel(R) Wi-Fi 7 BE200 320MHz #4-WFP Native MAC Layer LightWeight Filter-0000)" short-display-name="wireless_6 (Intel(R) Wi-Fi 7 BE200 320MHz #4-WFP Native MAC Layer LightWeight Filter-0000)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_6"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_6"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wireless_5 (Intel(R) Wi-Fi 7 BE200 320MHz-WFP 802.3 MAC Layer LightWeight Filter-0000)" short-display-name="wireless_5 (Intel(R) Wi-Fi 7 BE200 320MHz-WFP 802.3 MAC Layer LightWeight Filter-0000)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_5"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_5"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wireless_8 (Intel(R) Wi-Fi 7 BE200 320MHz #4-Npcap Packet Driver (NPCAP)-0000)" short-display-name="wireless_8 (Intel(R) Wi-Fi 7 BE200 320MHz #4-Npcap Packet Driver (NPCAP)-0000)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_8"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_8"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wireless_7 (Intel(R) Wi-Fi 7 BE200 320MHz #4-Native WiFi Filter Driver-0000)" short-display-name="wireless_7 (Intel(R) Wi-Fi 7 BE200 320MHz #4-Native WiFi Filter Driver-0000)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_7"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_7"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="ethernet_0 (Bluetooth Device (Personal Area Network)-Npcap Packet Driver (NPCAP)-0000)" short-display-name="ethernet_0 (Bluetooth Device (Personal Area Network)-Npcap Packet Driver (NPCAP)-0000)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~ethernet_0"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~ethernet_0"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="wireless_9 (Intel(R) Wi-Fi 7 BE200 320MHz #4-Zscaler LightWeight Filter-0000)" short-display-name="wireless_9 (Intel(R) Wi-Fi 7 BE200 320MHz #4-Zscaler LightWeight Filter-0000)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~wireless_9"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~wireless_9"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+            <monitor-category
+                name="ethernet_32769 (Realtek USB GbE Family Controller)" short-display-name="ethernet_32769 (Realtek USB GbE Family Controller)">
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="ibytesperinterface~NeoLoad~ethernet_32769"
+                    sampling="0" unit="Mb/s"/>
+                <monitor-wrapped-statistic callTime="ON_BENCH"
+                    computing="0" format="NUMBER"
+                    name="obytesperinterface~NeoLoad~ethernet_32769"
+                    sampling="0" unit="Mb/s"/>
+            </monitor-category>
+        </monitor-category>
+        <monitor-category name="NeoLoad Web" short-display-name="NeoLoad Web">
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="nlwebdownload" sampling="0" unit=""/>
+            <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+                format="NUMBER" name="nlwebupload" sampling="0" unit=""/>
+        </monitor-category>
+        <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
+            format="NUMBER" name="SapUserLoad" sampling="0" unit=""/>
+    </monitor-category>
+    <threshold enabled="true" uid="41cbcbee-ec33-483d-a151-7c2fb05a6606">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="80.0">
+            <threshold-comment language="en">
+                <threshold-content>Controller CPU high.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>CPU du Contrôleur surchargé.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Controller CPU high.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>CPU du Contrôleur surchargé.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="f69be50e-811e-402b-a2b3-67f175c9c0e5">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="80.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high amount of JVM memory used</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Quantité de mémoire de la JVM  en cours d'utilisation élevée</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high amount of JVM memory used</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Quantité de mémoire de la JVM  en cours d'utilisation élevée</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="281033a4-0c9f-4f88-98a4-6c91c579221c">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="80.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high amount of OS memory used</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Quantité de mémoire de l'OS  en cours d'utilisation élevée</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high amount of OS memory used</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Quantité de mémoire de l'OS  en cours d'utilisation élevée</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="f072ca82-f9e7-4497-a29f-33ca48bd4204">
+        <threshold-condition durationKind="NB_OF_TIMES"
+            durationNumber="1" operator="GREATER_THAN" severity="LOW"
+            valueMax="Infinity" valueMin="1.0">
+            <threshold-comment language="en">
+                <threshold-content>Load Generator Diconnected &gt;=1</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Injecteur  déconnecté &gt;= 1</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+</connection-system>
+<!--****** END MONITOR CONNECTIONS ******-->
+<!--****** DASHBOARDS  ******-->
+<!--****** END DASHBOARDS  ******-->
+<!--****** RESULTS GRAPH DESC TEMPLATES ******-->
+<charts-templates-description name="template.customs"/>
